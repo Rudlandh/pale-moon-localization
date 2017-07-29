@@ -34,3 +34,11 @@
 <!ENTITY chooseFolderMac.accesskey    "б">
 <!ENTITY alwaysAsk.label "Завжди запитувати при збереженні файлів">
 <!ENTITY alwaysAsk.accesskey "ж">
+
+<!ENTITY toolkit.classic.download.window.label       "Використовувати класичне вікно завантаження">
+
+<!ENTITY zoneInfo.label       "Зберігати інформацію про джерело файлу:">
+<!ENTITY zoneInfo.never       "Ніколи">
+<!ENTITY zoneInfo.always      "Завжди">
+<!ENTITY zoneInfo.system      "Використовувати системні настройки ">
+

@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  warnAddonInstall.label        "Предупреждать при попытке веб-сайтов установить дополнения">
-<!ENTITY  warnAddonInstall.accesskey    "е">
+<!ENTITY  warnAddonInstall.label        "Видавати попередження при спробі сайтів встановити додаток">
+<!ENTITY  warnAddonInstall.accesskey    "В">
 
 <!-- LOCALIZATION NOTE (blockWebForgeries.label, blockAttackSites.label):
   The methods by which forged (phished) and attack sites will be detected by
@@ -12,37 +12,37 @@
   useDownloadedList.label convey the meaning "reported" (and not something like
   "known").
 -->
-<!ENTITY  blockAttackSites.label     "Блокировать сайты, подозреваемые в атаках">
-<!ENTITY  blockAttackSites.accesskey "к">
+<!ENTITY  blockAttackSites.label     "Блокувати сайти, відзвітовані як нападники">
+<!ENTITY  blockAttackSites.accesskey "н">
 
-<!ENTITY  blockWebForgeries.label     "Блокировать сайты, подозреваемые в мошенничестве">
-<!ENTITY  blockWebForgeries.accesskey "л">
+<!ENTITY  blockWebForgeries.label     "Блокувати сайти, відзвітовані як підробки">
+<!ENTITY  blockWebForgeries.accesskey "п">
 
-<!ENTITY  addonExceptions.label         "Исключения…">
-<!ENTITY  addonExceptions.accesskey     "с">
+<!ENTITY  addonExceptions.label         "Винятки…">
+<!ENTITY  addonExceptions.accesskey     "В">
 
 
-<!ENTITY  passwords.label               "Пароли">
+<!ENTITY  passwords.label               "Паролі">
 
-<!ENTITY  rememberPasswords.label       "Запоминать пароли для сайтов">
+<!ENTITY  rememberPasswords.label       "Запам’ятовувати паролі для сайтів">
 <!ENTITY  rememberPasswords.accesskey   "а">
-<!ENTITY  passwordExceptions.label      "Исключения…">
-<!ENTITY  passwordExceptions.accesskey  "ю">
+<!ENTITY  passwordExceptions.label      "Винятки…">
+<!ENTITY  passwordExceptions.accesskey  "и">
 
-<!ENTITY  useMasterPassword.label        "Использовать мастер-пароль">
-<!ENTITY  useMasterPassword.accesskey    "о">
-<!ENTITY  changeMasterPassword.label     "Сменить мастер-пароль…">
-<!ENTITY  changeMasterPassword.accesskey "м">
+<!ENTITY  useMasterPassword.label        "Використовувати головний пароль">
+<!ENTITY  useMasterPassword.accesskey    "и">
+<!ENTITY  changeMasterPassword.label     "Змінити головний пароль…">
+<!ENTITY  changeMasterPassword.accesskey "і">
 
-<!ENTITY  savedPasswords.label            "Сохранённые пароли…">
-<!ENTITY  savedPasswords.accesskey        "х">
+<!ENTITY  savedPasswords.label            "Збережені паролі…">
+<!ENTITY  savedPasswords.accesskey        "п">
 
-<!ENTITY  SecProto.label             "Протоколы безопасности">
-<!ENTITY  enableHSTS.label           "Включить HTTP Strict Transport Security (HSTS)">
+<!ENTITY  SecProto.label             "Протоколи безпеки">
+<!ENTITY  enableHSTS.label           "Включити HTTP Strict Transport Security (HSTS">
 <!ENTITY  enableHSTS.accesskey       "S">
-<!ENTITY  enableHPKP.label           "Включить Certificate Key Pinning (HPKP)">
+<!ENTITY  enableHPKP.label           "Включити Certificate Key Pinning (HPKP)">
 <!ENTITY  enableHPKP.accesskey       "C">
 
-<!ENTITY  XSSFilt.label              "Фильтр XSS">
-<!ENTITY  enableXSSFilt.label        "Включить фильтр XSS">
+<!ENTITY  XSSFilt.label              "Фільтр XSS">
+<!ENTITY  enableXSSFilt.label        "Включити фiльтр XSS">
 <!ENTITY  enableXSSFilt.accesskey    "f">

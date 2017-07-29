@@ -2,32 +2,32 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newWindowsAsTabs.label       "Вместо новых окон открывать новые вкладки">
-<!ENTITY newWindowsAsTabs.accesskey   "м">
+<!ENTITY newWindowsAsTabs.label       "Відкривати замість нових вікон нові вкладки">
+<!ENTITY newWindowsAsTabs.accesskey   "в">
 
-<!ENTITY warnCloseMultipleTabs.label  "Предупреждать при закрытии нескольких вкладок">
-<!ENTITY warnCloseMultipleTabs.accesskey  "д">
+<!ENTITY warnCloseMultipleTabs.label  "Видавати попередження, коли я намагаюся закрити вікно з декількома вкладками">
+<!ENTITY warnCloseMultipleTabs.accesskey  "и">
 
-<!ENTITY warnOpenManyTabs.label       "Предупреждать, когда открытие нескольких вкладок может замедлить &brandShortName;">
-<!ENTITY warnOpenManyTabs.accesskey   "р">
+<!ENTITY warnOpenManyTabs.label       "Видавати попередження, коли я намагаюся відкрити одночасно велику кількість вкладок, що призведе до сповільнення роботи  &brandShortName;">
+<!ENTITY warnOpenManyTabs.accesskey   "и">
 
-<!ENTITY restoreTabsOnDemand.label        "Не загружать вкладки без запроса">
-<!ENTITY restoreTabsOnDemand.accesskey    "ж">
+<!ENTITY restoreTabsOnDemand.label        "Не завантажувати вкладки без запиту">
+<!ENTITY restoreTabsOnDemand.accesskey    "з">
 
-<!ENTITY switchToNewTabs.label        "Переключаться на открываемую вкладку">
-<!ENTITY switchToNewTabs.accesskey    "к">
+<!ENTITY switchToNewTabs.label        "При відкритті посилання в новій вкладці зробити її активною">
+<!ENTITY switchToNewTabs.accesskey    "и">
 
-<!ENTITY showTabsInTaskbar.label          "Отображать эскизы вкладок на панели задач Windows">
-<!ENTITY showTabsInTaskbar.accesskey      "б">
+<!ENTITY showTabsInTaskbar.label          "Показувати нариси вкладок у панелі задач Windows">
+<!ENTITY showTabsInTaskbar.accesskey      "н">
 
-<!ENTITY showTabBar.label                   "Всегда показывать панель вкладок">
+<!ENTITY showTabBar.label                   "Завжди показувати панель вкладок">
 <!ENTITY showTabBar.accesskey               "г">
 
-<!ENTITY insertRelatedAfterCurrent.label    "Вставлять связанные вкладки после текущей">
-<!ENTITY contextLoadInBackground.label      "Переключаться на новую вкладку при поиске из контекстного меню">
-<!ENTITY closeWindowWithLastTab.label       "Закрывать окно при закрытии последней вкладки">
+<!ENTITY insertRelatedAfterCurrent.label    "Вставляти пов'язані вкладки після поточної">
+<!ENTITY contextLoadInBackground.label      "Перемикатися на нову вкладку при пошуку з контекстного меню">
+<!ENTITY closeWindowWithLastTab.label       "Закривати вікно при закритті останньої вкладки">
 
-<!ENTITY newtabPage.label                   "При открытии новой вкладки показать:">
-<!ENTITY newtabPage.blank.label             "Пустую страницу">
-<!ENTITY newtabPage.home.label              "Стартовую страницу Pale Moon">
-<!ENTITY newtabPage.quickdial.label         "Страницу Быстрого Набора">
+<!ENTITY newtabPage.label                   "При відкритті нової вкладки показати::">
+<!ENTITY newtabPage.blank.label             "Порожню сторінку">
+<!ENTITY newtabPage.home.label              "Стартову сторінку Pale Moon">
+<!ENTITY newtabPage.quickdial.label         "Сторінку Швидкого Набору">

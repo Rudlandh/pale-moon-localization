@@ -16,13 +16,24 @@
 
 <!ENTITY  locationBar.label             "Панель адрес">
 
-<!ENTITY  locbar.pre.label              "У панелі адрес наводити підказками:">
-<!ENTITY  locbar.pre.accessKey          "п">
+<!ENTITY  locbar.suggest.label          "При використанні адресного рядка пропонувати посилання:">
+<!ENTITY  locbar.history.label          "з журналу">
+<!ENTITY  locbar.history.accesskey      "ж">
+<!ENTITY  locbar.bookmarks.label        "з закладок">
+<!ENTITY  locbar.bookmarks.accesskey    "з">
+<!ENTITY  locbar.openpage.label         "з відкритих вкладок">
+<!ENTITY  locbar.openpage.accesskey     "в">
+
+<!-- LOCALIZATION NOTE (locbar.pre.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.label              "При використанні адресного рядка пропонувати:">
+<!-- LOCALIZATION NOTE (locbar.pre.accessKey): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.pre.accessKey          "с">
+<!-- LOCALIZATION NOTE (locbar.post.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
 <!ENTITY  locbar.post.label             "">
-<!ENTITY  locbar.both.label             "Історію та закладки">
-<!ENTITY  locbar.history.label          "Історію">
-<!ENTITY  locbar.bookmarks.label        "Закладки">
-<!ENTITY  locbar.nothing.label          "Нічого">
+<!-- LOCALIZATION NOTE (locbar.both.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.both.label             "з журналу і закладок">
+<!-- LOCALIZATION NOTE (locbar.nothing.label): This is left for Pale Moon <= 27.0.2 and will be deleted soon -->
+<!ENTITY  locbar.nothing.label          "не пропонувати">
 
 <!ENTITY  acceptCookies.label           "Приймати куки від сайтів">
 <!ENTITY  acceptCookies.accesskey       "и">
@@ -83,6 +94,5 @@
 
 <!ENTITY  clearOnClose.label             "Вичищати історію коли &brandShortName; закривається">
 <!ENTITY  clearOnClose.accesskey         "к">
-
 <!ENTITY  clearOnCloseSettings.label     "Вподобання…">
 <!ENTITY  clearOnCloseSettings.accesskey "В">
