@@ -5,23 +5,23 @@
 <!ENTITY safeModeDialog.title         "&brandShortName; — Безпечний режим">
 <!ENTITY window.width                 "37em">
 
-<!ENTITY safeModeDescription.label    "&brandShortName; is now running in Safe Mode, which temporarily disables your custom settings, themes, and extensions.">
-<!ENTITY safeModeDescription2.label   "You can make some or all of these changes permanent:">
+<!ENTITY safeModeDescription.label    "&brandShortName; працює в Безпечному Режимі, який тимчасово відключає Ваші користувальницькі налаштування, теми і доповнення.">
+<!ENTITY safeModeDescription2.label   "Ви можете зробити всі або деякі з цих змін постійними:">
 
-<!ENTITY disableAddons.label          "Disable all add-ons">
+<!ENTITY disableAddons.label          "Відключити всі доповнення">
 <!ENTITY disableAddons.accesskey      "D">
 
-<!ENTITY resetToolbars.label          "Reset toolbars and controls">
+<!ENTITY resetToolbars.label          "Скидання панелей інструментів і елементів управління">
 <!ENTITY resetToolbars.accesskey      "R">
 
-<!ENTITY deleteBookmarks.label        "Delete all bookmarks except for backups">
+<!ENTITY deleteBookmarks.label        "Видалити всі закладки крім резервних копій">
 <!ENTITY deleteBookmarks.accesskey    "b">
 
-<!ENTITY resetUserPrefs.label         "Reset all user preferences to &brandShortName; defaults">
+<!ENTITY resetUserPrefs.label         "Скинути всі налаштування до налаштувань &brandShortName; за замовчуванням">
 <!ENTITY resetUserPrefs.accesskey     "p">
 
-<!ENTITY restoreSearch.label          "Restore default search engines">
+<!ENTITY restoreSearch.label          "Відновити пошукову систему за замовчуванням>
 <!ENTITY restoreSearch.accesskey      "s">
 
-<!ENTITY changeAndRestartButton.label "Make Changes and Restart">
-<!ENTITY continueButton.label         "Continue in Safe Mode">
+<!ENTITY changeAndRestartButton.label "Внесіть зміни і зробити рестарт">
+<!ENTITY continueButton.label         "Продовжити в безпечному режимі">
