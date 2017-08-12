@@ -7,10 +7,10 @@
 <!ENTITY  popupExceptions.label       "Винятки…">
 <!ENTITY  popupExceptions.accesskey   "и">
 
-<!ENTITY  loadImages.label            "Load images:">
-<!ENTITY  loadImages.always           "Automatically">
-<!ENTITY  loadImages.never            "Never">
-<!ENTITY  loadImages.no3rdparty       "Originating server only">
+<!ENTITY  loadImages.label            "Завантажувати зображення:">
+<!ENTITY  loadImages.always           "Автоматично">
+<!ENTITY  loadImages.never            "Ніколи">
+<!ENTITY  loadImages.no3rdparty       "Тільки з вихідного сервера">
 
 <!ENTITY  fontsAndColors.label        "Шрифти і кольори">
 
