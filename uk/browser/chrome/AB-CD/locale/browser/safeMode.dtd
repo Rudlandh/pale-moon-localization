@@ -20,7 +20,7 @@
 <!ENTITY resetUserPrefs.label         "Скинути всі налаштування до налаштувань &brandShortName; за замовчуванням">
 <!ENTITY resetUserPrefs.accesskey     "p">
 
-<!ENTITY restoreSearch.label          "Відновити пошукову систему за замовчуванням>
+<!ENTITY restoreSearch.label          "Restore default search engines">
 <!ENTITY restoreSearch.accesskey      "s">
 
 <!ENTITY changeAndRestartButton.label "Внесіть зміни і зробити рестарт">

@@ -13,7 +13,7 @@
 <!ENTITY community.exp.middle       " є ">
 <!-- LOCALIZATION NOTE (community.exp.creditslink): This is a link title that links to about:credits. -->
 <!ENTITY community.exp.creditsLink  "глобальною спільнотою">
-<!ENTITY community.exp.end          ", котра працює над тим, щоб інтернет лишався відкритим, громадським та доступним для всіх.">
+<!ENTITY community.exp.end          " працюючи разом, щоб зберегти інтернет відкритим, публічним і доступним для всіх.">
 
 <!ENTITY community.start2           "&brandShortName; був розроблений в ">
 <!-- LOCALIZATION NOTE (community.mozillaLink): This is a link title that links to http://www.mozilla.org/. -->
