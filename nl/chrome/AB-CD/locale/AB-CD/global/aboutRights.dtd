@@ -16,15 +16,15 @@
      Also note the leading/trailing whitespace in strings here, which is
      deliberate for formatting around the embedded links. -->
 <!ENTITY rights.intro-point1a "&brandShortName; wordt beschikbaar gesteld onder de voorwaarden van de ">
-<!ENTITY rights.intro-point1b "Mozilla Public License">
-<!ENTITY rights.intro-point1c ". Dit betekent dat u &brandShortName; mag gebruiken, kopiëren en naar anderen mag distribueren. Ook mag u de broncode van &brandShortName; modificeren naar een vorm die aan uw eisen voldoet. De Mozilla Public License geeft u tevens het recht uw aangepaste versies te distribueren.">
+<!ENTITY rights.intro-point1b "Mozilla Publieke Licentie">
+<!ENTITY rights.intro-point1c ". Dit betekent dat u &brandShortName; mag gebruiken, kopiëren en naar anderen mag distribueren. Binare bestanden zijn onderworpen aan de Pale Moon-herverdelingvergunning die te vinden is op de website van de Pale Moon. Ook mag u de broncode van &brandShortName; modificeren naar een vorm die aan uw eisen voldoet. De Mozilla Public License geeft u tevens het recht uw aangepaste versies te distribueren.">
 
-<!ENTITY rights.intro-point2-a "Er worden u geen rechten of licenties verleend op de handelsmerken van de Mozilla Foundation of enige andere partij, met inbegrip van en zonder beperking tot de naam of het logo van Firefox. Aanvullende informatie over handelsmerken is ">
+<!ENTITY rights.intro-point2-a "Er worden u geen rechten of licenties verleend op de handelsmerken van Moonchild Productions of enige andere partij, met inbegrip van en zonder beperking tot de naam of het logo van Pale Moon. Aanvullende informatie over handelsmerken is ">
 <!ENTITY rights.intro-point2-b "hier">
 <!ENTITY rights.intro-point2-c " te vinden.">
 
 <!-- point 2.5 text for official branded builds -->
-<!ENTITY rights.intro-point2.5 "Een aantal onderdelen in &brandShortName;, zoals de Crashreporter, bieden u de mogelijkheid feedback aan &vendorShortName; te leveren. Door het indienen van feedback geeft u &vendorShortName; toestemming om de feedback te gebruiken om zijn producten te verbeteren, de feedback op zijn websites te publiceren en de feedback te verspreiden.">
+<!ENTITY rights.intro-point2.5 "Sommige functies in &brandShortName; bieden u mogelijkheid feedback te geven aan &vendorShortName;. Door te kiezen voor feedback, geeft u &vendorShortName; Toestemming om de feedback te gebruiken om zijn producten te verbeteren, de feedback op zijn websites te publiceren en de feedback te verspreiden.">
 
 <!-- point 3 text for official branded builds -->
 <!ENTITY rights2.intro-point3a "Hoe we uw persoonlijke gegevens en feedback gebruiken die via &brandShortName; naar &vendorShortName; is verzonden wordt beschreven in het ">
@@ -85,4 +85,4 @@
 <!ENTITY rights.webservices-term4 "De Diensten worden aangeboden zonder enige garantie. &vendorShortName;, zijn medewerkers, licentiegevers en distributeurs wijzen alle uitdrukkelijke of impliciete garanties af, met inbegrip van, maar niet beperkt tot garanties van verhandelbaarheid en geschiktheid van de Diensten voor een bepaald doel. U draagt de volledige verantwoordelijkheid wat betreft het selecteren van de Diensten voor uw doeleinden en wat betreft de kwaliteit en prestaties van de Diensten. Sommige wetgevingen staan uitsluitingen of beperkingen van impliciete garanties niet toe, dus mogelijk is deze disclaimer op u niet van toepassing.">
 <!ENTITY rights.webservices-term5 "Behoudens zoals vereist bij de wet zijn &vendorShortName;, zijn medewerkers, licentiegevers en distributeurs niet aansprakelijk voor enige indirecte, speciale, incidentele, straffende of gevolgschade voortvloeiend uit of op enige manier verband houdend met het gebruik van &brandShortName; en de Diensten. De collectieve aansprakelijkheid onder deze voorwaarden zal het bedrag van $500 (vijfhonderd dollar) niet overschrijden. Sommige wetgevingen staan uitsluitingen of beperkingen van bepaalde garanties niet toe, dus mogelijk zijn deze uitsluiting en beperking op u niet van toepassing.">
 <!ENTITY rights.webservices-term6 "&vendorShortName; is te allen tijde gerechtigd deze voorwaarden te wijzigen. Deze voorwaarden mogen niet worden gewijzigd of geannuleerd zonder schriftelijke toestemming van &vendorShortName;.">
-<!ENTITY rights.webservices-term7 "Deze voorwaarden vallen onder de wetten van de staat Californië, U.S.A., met uitzondering van zijn bepalingen van internationaal privaatrecht. Indien één of meer van deze voorwaarden als ongeldig of onafdwingbaar worden beschouwd, blijven de overige bepalingen onverminderd van kracht. In geval van strijdigheid tussen een vertaalde versie van deze voorwaarden en de Engelse versie prevaleert de Engelse versie.">
+<!ENTITY rights.webservices-term7 "Deze voorwaarden worden geregeld door de wetten van Zweden, met uitzondering van conflictering van wetbepalingen. Als een gedeelte van deze termen ongeldig of onafdwingbaar wordt geacht, blijven de resterende gedeelten volledig van kracht. In het geval van een conflict tussen een vertaalde versie van deze termen en de Engelse versie, gaat de Engelse versie voor.">

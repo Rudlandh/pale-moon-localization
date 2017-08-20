@@ -1,0 +1,10 @@
+<!ENTITY status4evar.status.toolbar.accessKey "S">
+<!ENTITY status4evar.status.toolbar.title "Barra de estado">
+<!ENTITY status4evar.status.widget.title "Texto de estado">
+<!ENTITY status4evar.progress.widget.title "Medidor de progreso">
+<!ENTITY status4evar.throbber.widget.title "Indicador de actividade">
+<!ENTITY status4evar.download.widget.title "Estado de descarga">
+<!ENTITY status4evar.options.widget.title "Opcións da barra de estado de Pale Moon">
+<!ENTITY status4evar.options.widget.label "Barra de estado de Pale Moon">
+<!ENTITY status4evar.menu.options.label "Opcións da barra de estado...">
+

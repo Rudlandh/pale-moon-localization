@@ -1,0 +1,30 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE : FILE This file contains the Remote Connection strings.
+  - The Remote Connection window can reached from the "connect…" menuitem
+  - in the Web Developer menu.
+  - -->
+
+<!ENTITY title      "Kumunekta">
+<!ENTITY header     "Kumonekta sa remote na device">
+<!ENTITY host       "Host:">
+<!ENTITY port       "Port:">
+<!ENTITY connect    "Kumunekta">
+<!ENTITY connecting "Kumokonek…">
+<!ENTITY availableAddons "Mga magagamit na remote add-on:">
+<!ENTITY availableTabs "Mga magagamit na remote tab:">
+<!ENTITY availableProcesses "Mga magagamit na remote process:">
+<!ENTITY connectionError "Error:">
+<!ENTITY errorTimeout "Error: koneksyon nag-time out.">
+<!ENTITY errorRefused "Error: koneksyon tinanggihan.">
+<!ENTITY errorUnexpected "Hindi inaasahang error.">
+
+<!-- LOCALIZATION NOTE (remoteHelp, remoteDocumentation, remoteHelpSuffix):
+these strings will be concatenated in a single label, remoteDocumentation will
+be used as text for a link to MDN. -->
+<!ENTITY remoteHelp "Ang mga Developer Tool ay kayang mag-debug ng mga remote device (Halimbawa ay ang Pale Moon para sa Android). Siguraduhing naka-turn on ang 'Remote debugging' option sa remote device. Para sa higit pang impormasyon, tingnan ang ">
+<!ENTITY remoteDocumentation "dokumentasyon">
+<!ENTITY remoteHelpSuffix ".">
+

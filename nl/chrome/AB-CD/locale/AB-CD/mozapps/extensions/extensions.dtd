@@ -4,9 +4,10 @@
 <!ENTITY addons.windowTitle                   "Add-onbeheerder">
 
 <!ENTITY search.placeholder                   "Alle add-ons doorzoeken">
+<!ENTITY search.buttonlabel                   "Zoeken">
 <!-- LOCALIZATION NOTE (search.commandKey):
      The search command key should match findOnCmd.commandkey from browser.dtd -->
-<!ENTITY search.commandkey                    "f">
+<!ENTITY search.commandkey                    "Z">
 
 <!ENTITY loading.label                        "Laden…">
 <!ENTITY listEmpty.installed.label            "U hebt geen add-ons van dit type geïnstalleerd">
@@ -71,7 +72,7 @@
 <!ENTITY updates.updateSelected.tooltip       "Beschikbare updates in deze lijst installeren">
 
 <!-- addon actions -->
-<!ENTITY cmd.showDetails.label                "Meer informatie tonen">
+<!ENTITY cmd.showDetails.label                "Meer informatie weergeven">
 <!ENTITY cmd.showDetails.accesskey            "M">
 <!ENTITY cmd.findUpdates.label                "Updates zoeken">
 <!ENTITY cmd.findUpdates.accesskey            "U">
@@ -101,6 +102,7 @@
 <!ENTITY cmd.installAddon.accesskey           "I">
 <!ENTITY cmd.uninstallAddon.label             "Verwijderen">
 <!ENTITY cmd.uninstallAddon.accesskey         "V">
+<!ENTITY cmd.debugAddon.label                 "Debug">
 <!ENTITY cmd.showPreferencesWin.label         "Opties">
 <!ENTITY cmd.showPreferencesWin.tooltip       "Opties van deze add-on wijzigen">
 <!ENTITY cmd.showPreferencesUnix.label        "Voorkeuren">
@@ -109,8 +111,8 @@
 <!ENTITY cmd.contribute.accesskey             "B">
 <!ENTITY cmd.contribute.tooltip               "Bijdragen aan de ontwikkeling van deze add-on">
 
-<!ENTITY cmd.showReleaseNotes.label           "Uitgaveopmerkingen tonen">
-<!ENTITY cmd.showReleaseNotes.tooltip         "De uitgaveopmerkingen van deze update tonen">
+<!ENTITY cmd.showReleaseNotes.label           "Uitgaveopmerkingen weergeven">
+<!ENTITY cmd.showReleaseNotes.tooltip         "De uitgaveopmerkingen van deze update weergeven">
 <!ENTITY cmd.hideReleaseNotes.label           "Uitgaveopmerkingen verbergen">
 <!ENTITY cmd.hideReleaseNotes.tooltip         "De uitgaveopmerkingen van deze update verbergen">
 
@@ -175,13 +177,13 @@
 
 <!ENTITY search.filter2.label                 "Zoeken:">
 <!ENTITY search.filter2.installed.label       "Mijn add-ons">
-<!ENTITY search.filter2.installed.tooltip     "Geïnstalleerde add-ons tonen">
+<!ENTITY search.filter2.installed.tooltip     "Geïnstalleerde add-ons weergeven">
 <!ENTITY search.filter2.available.label       "Beschikbare add-ons">
-<!ENTITY search.filter2.available.tooltip     "Add-ons tonen die beschikbaar zijn voor installatie">
+<!ENTITY search.filter2.available.tooltip     "Add-ons weergeven die beschikbaar zijn voor installatie">
 
 <!ENTITY addon.homepage                       "Homepage">
 <!ENTITY addon.details.label                  "Meer">
-<!ENTITY addon.details.tooltip                "Meer details over deze add-on tonen">
+<!ENTITY addon.details.tooltip                "Meer details over deze add-on weergeven">
 <!ENTITY addon.unknownDate                    "Onbekend">
 <!-- LOCALIZATION NOTE (addon.disabled.postfix): This is used in a normal list
      to signify that an add-on is disabled, in the form
@@ -208,6 +210,9 @@
 <!ENTITY addon.loadingReleaseNotes.label      "Laden…">
 <!ENTITY addon.errorLoadingReleaseNotes.label "Sorry, maar er is een fout opgetreden bij het laden van de uitgaveopmerkingen.">
 
+<!ENTITY addon.nativeAddon                    "Deze add-on is direct gericht op Pale Moon">
+<!ENTITY addon.compatAddon                    "Deze add-on is gericht op Mozilla Firefox en draait in compatibiliteitsmodus">
+
 <!ENTITY addon.createdBy.label                "Door ">
 
 <!ENTITY eula.title                           "Eindgebruikerslicentieovereenkomst">
@@ -216,3 +221,16 @@
 <!ENTITY eula.accept                          "Accepteren en installeren…">
 
 <!ENTITY settings.path.button.label           "Bladeren…">
+
+<!-- LOCALIZATION NOTE (experiment.info.label): The strings related to
+     experiments are present on the "Experiments" tab of the add-ons manager.
+     This tab won't be displayed unless an Experiment add-on is installed.
+     Install https://people.mozilla.org/~gszorc/dummy-experiment-addon.xpi
+     to cause this tab to appear. -->
+<!ENTITY experiment.info.label "Wat is dit? Telemetrie kan van tijd tot tijd experimenten installeren en uitvoeren.">
+<!ENTITY experiment.info.learnmore "Meer info">
+<!ENTITY experiment.info.learnmore.accesskey "I">
+<!ENTITY experiment.info.changetelemetry "Telemetrie instellingen">
+<!ENTITY experiment.info.changetelemetry.accesskey "T">
+
+<!ENTITY setting.learnmore "Meer info…">

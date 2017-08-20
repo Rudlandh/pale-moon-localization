@@ -3,44 +3,44 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "Configurar &syncBrand.fullName.label;">
-<!ENTITY setupButton.accesskey      "C">
-<!ENTITY weaveDesc.label            "O &syncBrand.fullName.label; permite que você acesse seu histórico, favoritos, senhas e abas abertas em qualquer computador ou dispositivo móvel.">
+<!ENTITY setupButton.label          "Configurar &syncBrand.shortName.label;">
+<!ENTITY setupButton.accesskey      "S">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; permite acessar o seu histórico, favoritos, senhas e abrir abas em todos os seus dispositivos.">
 
 <!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
 <!ENTITY updatePass.label             "Atualizar">
-<!ENTITY resetPass.label              "Redefinir">
+<!ENTITY resetPass.label              "Reiniciar">
 
 <!-- Manage Account -->
 <!ENTITY manageAccount.label          "Gerenciar conta">
-<!ENTITY manageAccount.accesskey      "G">
+<!ENTITY manageAccount.accesskey      "n">
 <!ENTITY viewQuota.label              "Exibir cota">
-<!ENTITY changePassword2.label        "Modificar senha…">
-<!ENTITY myRecoveryKey.label          "Minha chave de recuperação">
-<!ENTITY resetSync2.label             "Reconfigurar Sync…">
+<!ENTITY changePassword2.label        "Alterar senha…">
+<!ENTITY myRecoveryKey.label          "Minha senha de recuperação">
+<!ENTITY resetSync2.label             "Reiniciar o Sync…">
 
 <!ENTITY pairDevice.label             "Parear dispositivo">
 
-<!ENTITY syncMy.label               "Sincronizar:">
+<!ENTITY syncMy.label               "Sincronizar meu">
 <!ENTITY engine.bookmarks.label     "Favoritos">
-<!ENTITY engine.bookmarks.accesskey "F">
+<!ENTITY engine.bookmarks.accesskey "m">
 <!ENTITY engine.tabs.label          "Abas">
-<!ENTITY engine.tabs.accesskey      "A">
+<!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Histórico">
-<!ENTITY engine.history.accesskey   "H">
+<!ENTITY engine.history.accesskey   "r">
 <!ENTITY engine.passwords.label     "Senhas">
-<!ENTITY engine.passwords.accesskey "S">
+<!ENTITY engine.passwords.accesskey "P">
 <!ENTITY engine.prefs.label         "Preferências">
-<!ENTITY engine.prefs.accesskey     "P">
+<!ENTITY engine.prefs.accesskey     "S">
 <!ENTITY engine.addons.label        "Complementos">
-<!ENTITY engine.addons.accesskey    "C">
+<!ENTITY engine.addons.accesskey    "A">
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label       "Nome do dispositivo:">
-<!ENTITY syncDeviceName.accesskey   "N">
-<!ENTITY unlinkDevice.label           "Desconectar este dispositivo">
+<!ENTITY syncDeviceName.accesskey   "c">
+<!ENTITY unlinkDevice.label           "Desvincular este dispositivo">
 
 <!-- Footer stuff -->
 <!ENTITY prefs.tosLink.label        "Termos de serviço">

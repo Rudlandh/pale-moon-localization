@@ -1,0 +1,116 @@
+<!ENTITY status4evar.window.title "Настройки на лентата на състоянието на Pale Moon">
+
+<!ENTITY status4evar.pane.status "Статус">
+<!ENTITY status4evar.pane.progress "Прогрес">
+<!ENTITY status4evar.pane.download "Сваляне">
+<!ENTITY status4evar.pane.statusbar "Лента на състоянието">
+<!ENTITY status4evar.pane.advanced "Разширени">
+
+<!ENTITY status4evar.tab.general "Общи">
+<!ENTITY status4evar.tab.toolbar "Лента на състоянието">
+<!ENTITY status4evar.tab.urlbar "Адресна лента">
+<!ENTITY status4evar.tab.popup "Изскачащ прозорец">
+<!ENTITY status4evar.tab.tabs "Раздели">
+
+<!ENTITY status4evar.option.none "Без">
+<!ENTITY status4evar.option.nothing "Нищо">
+<!ENTITY status4evar.option.toolbar "Лента на състоянието">
+<!ENTITY status4evar.option.urlbar "Адресна лента">
+<!ENTITY status4evar.option.popup "Изскачащ прозорец">
+<!ENTITY status4evar.option.tooltip "Пояснение">
+<!ENTITY status4evar.option.bottom "Отдолу">
+<!ENTITY status4evar.option.top "Отгоре">
+<!ENTITY status4evar.option.fill "Запълване">
+<!ENTITY status4evar.option.dlcount "Брой на свалянията">
+<!ENTITY status4evar.option.dltime "Оставащо време">
+<!ENTITY status4evar.option.both "И двете">
+<!ENTITY status4evar.option.right "Дясно">
+<!ENTITY status4evar.option.left "Ляво">
+<!ENTITY status4evar.option.fixed "Фиксирано">
+<!ENTITY status4evar.option.simple "Опростено">
+<!ENTITY status4evar.option.advanced "Разширено">
+<!ENTITY status4evar.option.browse "Преглед">
+<!ENTITY status4evar.option.clear "Изчистване">
+<!ENTITY status4evar.option.center "Център">
+<!ENTITY status4evar.option.offset "Отстояние">
+<!ENTITY status4evar.option.repeat "Повтори">
+<!ENTITY status4evar.option.no-repeat "Не повтаряй">
+<!ENTITY status4evar.option.space "Интервал">
+<!ENTITY status4evar.option.round "Заоблено">
+<!ENTITY status4evar.option.firefoxdefault "По подразбиране за Pale Moon">
+<!ENTITY status4evar.option.download.library "Библиотека">
+<!ENTITY status4evar.option.download.tab "Раздел">
+<!ENTITY status4evar.option.download.thirdparty "Трети страни">
+
+<!ENTITY status4evar.unit.milliseconds "милисекунди">
+<!ENTITY status4evar.unit.seconds "секунди">
+<!ENTITY status4evar.unit.px "пкс">
+
+<!ENTITY status4evar.status.general.status.caption "Текст на състоянието">
+<!ENTITY status4evar.status.label "Покажи състоянието в:">
+<!ENTITY status4evar.status.timeout.label "Скрий състоянието след:">
+<!ENTITY status4evar.status.default.label "Показвай състоянието по подразбиране">
+<!ENTITY status4evar.status.network.label "Показване на състоянието на мрежата">
+<!ENTITY status4evar.status.network.xhr.label "Показвай мрежовото състояние на заден фон">
+<!ENTITY toolkit.dom.status.change.label "Позволи на уеб страниците да променят състоянието">
+
+<!ENTITY status4evar.status.general.linkOver.caption "Линкове">
+<!ENTITY status4evar.status.linkOver.label "Покажи линковете в:">
+<!ENTITY status4evar.status.linkOver.delay.show.label "Забавяне преди показване на линкове:">
+<!ENTITY status4evar.status.linkOver.delay.hide.label "Забавяне преди скриване на линкове:">
+
+<!ENTITY status4evar.status.toolbar.maxLength.label "Максимална дължина на текста:">
+
+<!ENTITY status4evar.status.urlbar.align.label "Подравняване на състоянието:">
+<!ENTITY status4evar.status.urlbar.color.label "Цвят на състоянието:">
+<!ENTITY status4evar.status.currentUrl "Текущо местоположение">
+<!ENTITY status4evar.status.statusText "Текст на състоянието">
+
+<!ENTITY status4evar.status.urlbar.firefox.builtin.caption "Функции за съвместимост на Firefox">
+<!ENTITY browser.urlbar.formatting.enabled.label "Включи осветяването на домейни">
+<!ENTITY browser.urlbar.trimming.enabled.label "Включи протокол за скриване (http:// и ftp://)">
+
+<!ENTITY status4evar.status.popup.invertMirror.label "По подразбиране вдясно">
+<!ENTITY status4evar.status.popup.mouseMirror.label "Сменяй страните при посочване с мишката">
+
+<!ENTITY status4evar.progress.style.label "Използване на потребителски стил">
+
+<!ENTITY status4evar.progress.urlbar.enable.label "Покажи напредъка в адресната лента">
+<!ENTITY status4evar.progress.urlbar.line.label "Стил на линия:">
+
+<!ENTITY status4evar.progress.toolbar.force.label "Винаги показвай елементите в лентата на състоянието">
+
+<!ENTITY status4evar.editor.label "Редактор:">
+<!ENTITY status4evar.editor.css.color.label "Цвят:">
+<!ENTITY status4evar.editor.css.image.label "Изображение:">
+<!ENTITY status4evar.editor.css.image.repeat "Повтори">
+<!ENTITY status4evar.editor.css.image.position "Позиция">
+<!ENTITY status4evar.editor.css.image.offset "Отстояние">
+
+
+
+<!ENTITY status4evar.download.button.action.label "Действие на бутона за сваляне:">
+<!ENTITY status4evar.download.force.label "Винаги показвай индикатор за състоянието на изтегляне">
+<!ENTITY status4evar.download.label.force.label "Винаги показвай текста на индикатора">
+<!ENTITY status4evar.download.label.label "Текст на състоянието на сваляне:">
+<!ENTITY status4evar.download.tooltip.label "Съвет на състоянието на сваляне:">
+<!ENTITY status4evar.download.progress.label "Покажи хода на сваляне в бутона">
+<!ENTITY status4evar.download.progress.average.label "Показвай осреднен процент на напредъка">
+<!ENTITY status4evar.download.progress.max.label "Покажи най-завършеното изтегляне">
+<!ENTITY status4evar.download.progress.min.label "Покажи най-началното изтегляне">
+<!ENTITY status4evar.download.color.active.label "Цвят на напредъка на активните изтегляния:">
+<!ENTITY status4evar.download.color.paused.label "Цвят на напредъка на паузираните изтегляния:">
+<!ENTITY status4evar.download.notify.animate.label "Анимация на бутона, когато изтеглянето завърши">
+<!ENTITY status4evar.download.notify.timeout.label "Осветяване на бутона, когато изтеглянето завърши:">
+
+<!ENTITY status4evar.addonbar.borderStyle "Използвай алтернативен граници на лентата">
+<!ENTITY status4evar.addonbar.windowGripper "Покажи захвата за преоразмеряване на прозорец">
+<!ENTITY status4evar.addonbar.closeButton "Покажи бутона за затваряне">
+
+<!ENTITY status4evar.advanced.warning "Тези разширени настройки може да причинят проблеми на Pale Moon или други разширения. Модифицирай на свой риск.">
+
+<!ENTITY status4evar.advanced.urlbar.forceBinding "Опит за форсирано свързване на XBL на адресната лента.">
+<!ENTITY status4evar.advanced.urlbar.forceBinding.desc "Изберете това само в случай че имате проблем с адресната лента или с неправилно показване на текста на състоянието. Има вероятност да се счупят разширения, които се опитват да настроят XBL обвързването на лентата на състоянието.">
+
+<!ENTITY status4evar.advanced.status.detectFullScreen "Откриване на режим на цял екран и показване на линкове/състояние по подходящ начин.">
+<!ENTITY status4evar.advanced.status.detectVideo "Скрий изкачащите прозорци на HTML5 видеото на цял екран.">

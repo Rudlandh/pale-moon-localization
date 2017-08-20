@@ -1,0 +1,28 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY cutCmd.label "Изрежи">
+<!ENTITY cutCmd.accesskey "ж">
+<!ENTITY copyCmd.label "Копирай">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY pasteCmd.label "Постави">
+<!ENTITY pasteCmd.accesskey "П">
+<!ENTITY undoCmd.label "Отмени">
+<!ENTITY undoCmd.accesskey "т">
+<!ENTITY selectAllCmd.label "Избери всичкo">
+<!ENTITY selectAllCmd.accesskey "в">
+<!ENTITY deleteCmd.label "Изтрий">
+<!ENTITY deleteCmd.accesskey "й">
+
+<!ENTITY spellAddToDictionary.label "Добави към речника">
+<!ENTITY spellAddToDictionary.accesskey "р">
+<!ENTITY spellUndoAddToDictionary.label "Отмени добавяне към речника">
+<!ENTITY spellUndoAddToDictionary.accesskey "м">
+<!ENTITY spellCheckToggle.label "Проверка на правопис">
+<!ENTITY spellCheckToggle.accesskey "с">
+<!ENTITY spellNoSuggestions.label "(Няма предложения за правопис)">
+<!ENTITY spellDictionaries.label "Езици">
+<!ENTITY spellDictionaries.accesskey "ц">
+
+<!ENTITY searchTextBox.clear.label "Изчисти">

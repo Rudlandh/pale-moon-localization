@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY charsetMenu.label             "Кодиране на символите">
+<!ENTITY charsetMenu.accesskey         "К">
+<!ENTITY charsetMenuAutodet.label      "Автоматично откриване">
+<!ENTITY charsetMenuAutodet.accesskey  "А"><!-- A reserved for Arabic -->
+
+<!ENTITY charsetMenuAutodet.off.label     "(изключено)">
+<!ENTITY charsetMenuAutodet.off.accesskey "и">
+<!ENTITY charsetMenuAutodet.ja.label      "Японски">
+<!ENTITY charsetMenuAutodet.ja.accesskey  "Я">
+<!ENTITY charsetMenuAutodet.ru.label      "Руски">
+<!ENTITY charsetMenuAutodet.ru.accesskey  "Р">
+<!ENTITY charsetMenuAutodet.uk.label      "Украински">
+<!ENTITY charsetMenuAutodet.uk.accesskey  "У">
+

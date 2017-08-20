@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Dit adres heeft beperkte toegang">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>Het opgegeven adres specificeerde een poort (bijv. <q> palemoon.org:25 </q> voor poort 25 op palemoon.org) die normaal gesproken gebruikt wordt voor <em> andere </em> doeleinden dan webbrowsen. De browser heeft het verzoek terwille van uw bescherming en veiligheid geannuleerd.</p>">
 
 <!ENTITY dnsNotFound.title "Server niet gevonden">
 <!ENTITY dnsNotFound.longDesc "
@@ -86,11 +86,11 @@
 <!ENTITY netTimeout.title "De wachttijd voor de verbinding is verstreken">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Het adres werd niet begrepen">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "Het adres werd niet begrepen">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
-  <li>Misschien moet u andere software installeren om dit adres te openen.</li>
-</ul>
+  <li>Mogelijk moet u andere software installeren om dit adres te openen.</li>
+ </ul>
 ">
 
 <!ENTITY proxyConnectFailure.title "De proxyserver weigert verbindingen">
@@ -130,10 +130,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Beveiligde verbinding mislukt">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
-  <li>De pagina die u wilt bekijken kan niet worden weergegeven, omdat de echtheid van de ontvangen gegevens niet kon worden geverifieerd.</li>
-  <li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem. U kunt ook de opdracht in het helpmenu gebruiken om deze defecte website te rapporteren.</li>
+ <li>De pagina die u wilt bekijken kan niet worden weergegeven, omdat de echtheid van de ontvangen gegevens niet kon worden geverifieerd.</li>   
+ <li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li>
 </ul>
 ">
 
@@ -159,8 +159,8 @@
 
 <!ENTITY malwareBlocked.title "Vermoedelijke aanvalsite!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Aanvalsites proberen programma’s te installeren die privégegevens stelen, uw computer gebruiken om anderen aan te vallen, of uw systeem beschadigen.</p>
-<p>Website-eigenaars die menen dat hun website ten onrechte is gerapporteerd als een aanvalsite kunnen om een <a href='http://www.stopbadware.org/home/reviewinfo' >herbeoordeling vragen</a>.</p>
+<p>Aanvalwebsites proberen programma's te installeren die prive-informatie stelen, uw computer gebruiken om anderen aan te vallen, of schade aan uw systeem te berokkenen.</p>
+<p>Website eigenaars die menen dat hun site is gerapporteerd als een aanvalsite kunnen bij <a href='https://www.stopbadware.org/request-review' > een review aanvragen</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Vermoedelijke webvervalsing!">
@@ -169,8 +169,8 @@
 <p>Dit soort webvervalsingen wordt gebruikt in e-mailscams die bekend staan als phishingaanvallen, waarbij frauduleuze webpagina’s en e-mails worden gebruikt om bronnen die u misschien vertrouwt na te bootsen.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Geblokkeerd door inhoudbeveiligingsbeleid">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; heeft voorkomen dat de pagina op deze manier werd geladen, omdat de pagina een inhoudbeveiligingsbeleid heeft dat dit niet toestaat.</p>">
+<!ENTITY cspBlocked.title "Geblokkeerd door de 'Content Security Policy'">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; heeft voorkomen dat deze pagina op deze manier geladen werd, omdat de pagina een content security beleid heeft dat het niet toestaat.</p>">
 
 <!ENTITY xssBlockMode.title "Geblokkeerd door XSS filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -204,5 +204,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
-<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY errorReporting.title "Rapporteer deze fout">
+<!ENTITY errorReporting.longDesc "Rapportage van het adres en de certificaatinformatie voor <span id='hostname'></span> zal ons helpen kwaadaardige sites te identificeren en blokkeren. Bedankt voor het helpen bij het creëren van een veiliger web!">
+<!ENTITY errorReporting.automatic "Rapporteer in de toekomst fouten automatisch">
+<!ENTITY errorReporting.learnMore "Meer informatie…">
+<!ENTITY errorReporting.sending "Rapport verzenden">
+<!ENTITY errorReporting.sent "Rapport verzonden">
+<!ENTITY errorReporting.report "Melden">
+<!ENTITY errorReporting.tryAgain "Opnieuw proberen">
+
+<!ENTITY remoteXUL.title "Externe XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Veilig verbinden niet mogelijk">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Geavanceerde informatie: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Meer informatie…">

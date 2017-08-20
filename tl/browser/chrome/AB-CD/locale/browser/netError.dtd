@@ -1,0 +1,212 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
+%brandDTD;
+
+<!ENTITY loadError.label "Problema sa pag-load ng pahina">
+<!ENTITY retry.label "Subukan Muli">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Hindi maka-konek">
+<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+
+<!ENTITY deniedPortAccess.title "Ang address na ito ay limitado">
+<!ENTITY deniedPortAccess.longDesc "<p>Ang hiniling na address ay tinukoy ang isang port (e.g. <q>palemoon.org:25</q> para sa port 25 sa palemoon.org) na karaniwang ginagamit para sa <em>ibang layunin</em> maliban sa pagba-browse sa web. Kinansela ng browser ang kahilingan para sa iyong proteksyon at seguridad.</p>">
+
+<!ENTITY dnsNotFound.title "Hindi natagpuan ang server">
+<!ENTITY dnsNotFound.longDesc "
+<ul>
+  <li>Silipin ang address kung mayroon itong pagkakamali sa pag-type tulad ng
+    <strong>ww</strong>.example.com sa halip na
+    <strong>www</strong>.example.com</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
+  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall or proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+</ul>
+">
+
+<!ENTITY fileNotFound.title "Hindi nakita ang file">
+<!ENTITY fileNotFound.longDesc "
+<ul>
+  <li>Suriin ang pangalan ng file para sa mga pagkakamali sa paggamit ng malaking titik o iba pang pagkakamali sa pag-type.</li>
+  <li>Silipin kung ang file ay inilipat, pinalitan ng pangalan o inalis.</li>
+</ul>
+">
+
+
+<!ENTITY generic.title "Hala.">
+<!ENTITY generic.longDesc "
+<p>Hindi ma-load ng &brandShortName; ang pahinang ito sa isang hindi alam na kadahilanan.</p>
+">
+
+<!ENTITY malformedURI.title "Ang address ay imbalido">
+<!ENTITY malformedURI.longDesc "
+<ul>
+  <li>Ang mga web address ay karaniwang nakasulat na parang
+    <strong>http://www.example.com/</strong></li>
+  <li>Siguraduhing ikaw ay gumagamit ng forward slashes (i.e.
+    <strong>/</strong>).</li>
+</ul>
+">
+
+<!ENTITY netInterrupt.title "Ang koneksyon ay naantala">
+<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+
+<!ENTITY notCached.title "Lipas na Dokumento">
+<!ENTITY notCached.longDesc "<p>Ang hiniling na dokumento ay wala sa cache ng &brandShortName;.</p><ul><li>Bilang pag-iingat sa iyong seguridad, hindi kusang hiniling muli ng &brandShortName; ang mga sensitibong dokumento.</li><li>Pindutin ang Subukan Muli para hiling muli ang dokumento mula sa website.</li></ul>">
+
+<!ENTITY netOffline.title "Magtrabaho ng Walang Internet">
+<!ENTITY netOffline.longDesc2 "
+<ul>
+  <li>Pindutin ang &quot;Subukan Muli&quot; para lumipat sa online mode at ulitin ang pag-load sa page.</li>
+</ul>
+">
+
+<!ENTITY contentEncodingError.title "Content Encoding Error">
+<!ENTITY contentEncodingError.longDesc "
+<ul>
+  <li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li>
+</ul>
+">
+
+<!ENTITY unsafeContentType.title "Hindi Ligtas na File Type">
+<!ENTITY unsafeContentType.longDesc "
+<ul>
+  <li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li>
+</ul>
+">
+
+<!ENTITY netReset.title "Ang koneksyon ay na-reset">
+<!ENTITY netReset.longDesc "&sharedLongDesc;">
+
+<!ENTITY netTimeout.title "Ang koneksyon ay nag-time out">
+<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+
+<!ENTITY unknownProtocolFound.title "Ang address ay hindi naintindihan">
+<!ENTITY unknownProtocolFound.longDesc "
+<ul>
+  <li>Baka kailanganin mong mag-talaga ng ibang software para mabuksan itong address.</li>
+</ul>
+">
+
+<!ENTITY proxyConnectFailure.title "Ang proxy server ay tumatanggi sa mga koneksyon">
+<!ENTITY proxyConnectFailure.longDesc "
+<ul>
+  <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
+  <li>Makipag-ugnayan sa tagapamahala ng iyong network para masigurong ang proxy server ay gumagana.</li>
+</ul>
+">
+
+<!ENTITY proxyResolveFailure.title "Hindi mahanap ang proxy server">
+<!ENTITY proxyResolveFailure.longDesc "
+<ul>
+  <li>Silipin ang mga kagustuhan sa proxy at tiyakin na iyon ay tama.</li>
+  <li>Siguraduhing ang iyong kompyuter ay mayroong gumaganang koneksyon sa network.</li>
+  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall o proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+</ul>
+">
+
+<!ENTITY redirectLoop.title "Ang pahina ay hindi nagre-redirect ng maayos">
+<!ENTITY redirectLoop.longDesc "
+<ul>
+  <li>Ang problemang ito ay minsan dulot ng hindi pagpapagana o pag-tanggi sa pag-tanggap ng mga cookie.</li>
+</ul>
+">
+
+<!ENTITY unknownSocketType.title "Hindi inaasahang tugon mula sa server">
+<!ENTITY unknownSocketType.longDesc "
+<ul>
+  <li>Siguraduhing ang Personal Security Manager ay nakatalaga sa iyong kompyuter.</li>
+  <li>Maaring ito ay sanhi ng hindi-standard na pagkakapigura sa server.</li>
+</ul>
+">
+
+<!ENTITY nssFailure2.title "Pumalyang Secure na Koneksyon">
+<!ENTITY nssFailure2.longDesc2 "
+<ul>
+  <li>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil ang pagiging tunay ng natatanggap na datos ay hindi maberipika.</li>
+  <li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li>
+</ul>
+">
+
+<!ENTITY nssBadCert.title "Pumalyang Secure na Koneksyon">
+<!ENTITY nssBadCert.longDesc2 "
+<ul>
+  <li>Ito ay maaring problema sa pagkakapigura ng server, o maari rin na may gustong gayahin ang server na ito.</li>
+  <li>Kung ikaw ay matagumpay na nakakonekta sa server na ito sa nakaraaan, maaring ang pagkakamaling ito ay pansamantala lamang, at maari kang sumubok muli mamaya.</li>
+</ul>
+">
+
+<!ENTITY sharedLongDesc "
+<ul>
+  <li>Ang site ay maaring pansamantalang hindi magagamit o masyadong maraming ginagawa. Subukan muli makalipas ang ilang sandali.</li>
+  <li>Kung ikaw ay nabigo sa pag-load ng anumang mga pahina, suriin ang koneksyon ng network sa iyong kompyuter.</li>
+  <li>Kung ang iyong kompyuter o network ay protektado ng isang firewall or proxy, siguraduhing ang &brandShortName; ay pinapayagang maka-access sa Web.</li>
+</ul>
+">
+
+<!ENTITY malwareBlocked.title "Pinaghihinalaang Attack Site!">
+<!ENTITY malwareBlocked.longDesc "
+<p>Ang mga &quot;attack site&quot; ay sumusubok na magtalaga ng mga program na nagnanakaw ng pribadong impormasyon, gamitin ang iyong kompyuter para atakihin ang iba, o sirain ang iyong sistema.</p>
+<p>Para sa mga may-ari ng website na naniniwalang ang kanilang site ay nai-ulat na attack site sa pagkakamali ay maaring <a href='https://www.stopbadware.org/request-review' >humiling ng pagsusuri</a>.</p>
+">
+
+<!ENTITY phishingBlocked.title "Pinaghihinalaang Palsipikasyon sa Web!">
+<!ENTITY phishingBlocked.longDesc "
+<p>Paglalagay ng anumang personal na impormasyon sa pahinang ito ay maaring magresulta sa pagnanakaw ng pagkakakilanlan at iba pang panloloko.</p>
+<p>Ang mga ganitong klase ng palsipikasyon sa web ay ginagamit sa mga scam na kilala bilang &quot;phishing attacks&quot;, na kung saan mga pekeng pahina at email ang ginagamit para magaya ang mga tao o pinagmulang iyong pinagkakatiwalaan.</p>
+">
+
+<!ENTITY cspBlocked.title "Hinarang ng Content Security Policy">
+<!ENTITY cspBlocked.longDesc "<p>Hinarang ng &brandShortName; ang pahina sa pag-load sa ganitong paraan sapagkat ang pahina ay mayroong content security policy na hindi ito pinapayagan.</p>">
+
+<!ENTITY xssBlockMode.title "Hinarang ng XSS Filter">
+<!ENTITY xssBlockMode.longDesc "
+<ul>
+  <li>Hinarang ng &brandShortName; ang karagdagang aksyon sa pahinang ito dahil naglalaman ito ng injected code ng JavaScript</li>
+  <li>Pag-load ng pahinang ito ay sinuspinde dahil sa alin mang mga dahilan. Tahasang
+    kahilingan ng website na harangin ang page sakaling magkaroon ng XSS attacks, o
+    dahil ang &brandShortName; ay nakakonpigura na harangin ang mga pahina sa
+    ganoong mga sitwasyon.</li>
+</ul>
+">
+
+<!ENTITY corruptedContentError.title "Kamalian dahil sa Sirang Nilalaman">
+<!ENTITY corruptedContentError.longDesc "<p>Ang pahinang sinusubukan mong tingnan ay hindi maipakita dahil may natuklasang pagkakamali sa transmisyon ng datos.</p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul>">
+
+
+<!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsyon…">
+<!ENTITY securityOverride.getMeOutOfHereButton "Palabasin mo ako dito!">
+<!ENTITY securityOverride.exceptionButtonLabel "Magdagdag ng Eksepsyon…">
+
+<!-- LOCALIZATION NOTE (securityOverride.warningContent) - Do not translate the
+contents of the <button> tags. It uses strings already defined above. The
+button is included here (instead of netError.xhtml) because it exposes
+functionality specific to firefox. -->
+
+<!ENTITY securityOverride.warningContent "
+<p>Hindi ka dapat maglapat ng eksepsyon kung ikaw ay gumagamit ng koneksyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+
+<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
+<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+">
+
+<!ENTITY errorReporting.title "I-ulat itong pagkakamali">
+<!ENTITY errorReporting.longDesc "Pag-ulat sa address at impormasyon tungkol sa sertipiko ng <span id='hostname'></span> ay makatutulong upang makilala at maharang namin ang mga site na may masamang hangarin. Maraming salamat sa pagtulong sa pag-gawa ng mas ligtas na web!">
+<!ENTITY errorReporting.automatic "Kusang mag-ulat tungkol sa mga pagkakamali sa hinaharap">
+<!ENTITY errorReporting.learnMore "Matuto nang higit pa…">
+<!ENTITY errorReporting.sending "Ipinapadala ang ulat">
+<!ENTITY errorReporting.sent "Ipinadala ang ulat">
+<!ENTITY errorReporting.report "Ulat">
+<!ENTITY errorReporting.tryAgain "Subukan muli">
+
+<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.longDesc "<p><ul><li>Mangyaring makipag-ugnayan sa mga may-ari ng website para ipaalam sa kanila ang problemang ito.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Hindi Makakonekta Nang Matiwasay">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Advanced na impormasyon: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Matuto nang higit pa…">

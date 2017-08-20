@@ -19,3 +19,15 @@
 
 <!ENTITY showTabsInTaskbar.label          "在 Windows 工作列顯示分頁預覽圖">
 <!ENTITY showTabsInTaskbar.accesskey      "k">
+
+<!ENTITY showTabBar.label                   "永遠顯示書籤列">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "將相關的分頁插入在目前分頁的旁邊">
+<!ENTITY contextLoadInBackground.label      "執行內容相關式搜尋時，立即切換到新分頁">
+<!ENTITY closeWindowWithLastTab.label       "在最後一個分頁關閉時也關閉視窗">
+
+<!ENTITY newtabPage.label                   "當打開新的分頁時顯示︰">
+<!ENTITY newtabPage.blank.label             "空白頁">
+<!ENTITY newtabPage.home.label              "Pale Moon的起始頁">
+<!ENTITY newtabPage.quickdial.label         "Quickdial頁面">

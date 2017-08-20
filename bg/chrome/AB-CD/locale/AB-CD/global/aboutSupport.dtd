@@ -1,0 +1,109 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutSupport.pageTitle "Информация за решаване на проблеми">
+
+<!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
+<!ENTITY aboutSupport.pageSubtitle "    
+   Тази страница съдържа техническа информация, която може да се окаже полезна, когато се опитвате да решите проблем. Ако търсите отговори на конкретни въпроси относно &brandShortName;, обърнете се към нашия <a id='supportLink'>уеб сайт за поддръжка</a>. ">
+
+<!ENTITY aboutSupport.crashes.title "Съобщаване на сривове">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "ИД на отчета">
+<!ENTITY aboutSupport.crashes.sendDate "Изпратен">
+<!ENTITY aboutSupport.crashes.allReports "Всички отчети за сривове">
+<!ENTITY aboutSupport.crashes.noConfig "Това приложение не е конфигурирано да показва сривове.">
+
+<!ENTITY aboutSupport.extensionsTitle "Разширения">
+<!ENTITY aboutSupport.extensionName "Име">
+<!ENTITY aboutSupport.extensionEnabled "Включено">
+<!ENTITY aboutSupport.extensionVersion "Версия">
+<!ENTITY aboutSupport.extensionId "ID">
+
+<!ENTITY aboutSupport.experimentsTitle "Експериментални функции">
+<!ENTITY aboutSupport.experimentName "Име">
+<!ENTITY aboutSupport.experimentId "ID">
+<!ENTITY aboutSupport.experimentDescription "Описание">
+<!ENTITY aboutSupport.experimentActive "Активно">
+<!ENTITY aboutSupport.experimentEndDate "Крайна дата">
+<!ENTITY aboutSupport.experimentHomepage "Домашна страница">
+
+
+<!ENTITY aboutSupport.appBasicsTitle "Сведения за приложението">
+<!ENTITY aboutSupport.appBasicsName "Име">
+<!ENTITY aboutSupport.appBasicsVersion "Версия">
+<!ENTITY aboutSupport.appBasicsBuildID "Изграждане на ИД">
+
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+"Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Канал за обновление">
+<!ENTITY aboutSupport.appBasicsUpdateHistory "История на обновяването">
+<!ENTITY aboutSupport.appBasicsShowUpdateHistory "Покажи историята на обновяване">
+
+<!ENTITY aboutSupport.appBasicsProfileDir "Директория на профила">
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsProfileDirWinMac):
+This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDir.
+Windows/Mac use the term "Folder" instead of "Directory" -->
+<!ENTITY aboutSupport.appBasicsProfileDirWinMac "Папка на профила">
+
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "Включени плъгини">
+<!ENTITY aboutSupport.appBasicsBuildConfig "Конфигурация на приложението">
+<!ENTITY aboutSupport.appBasicsUserAgent "Потребителски агент">
+<!ENTITY aboutSupport.appBasicsOS "ОС">
+<!ENTITY aboutSupport.appBasicsMemoryUse "Използвана памет">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Многопроцесни прозорци">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Безопасен режим">
+
+<!ENTITY aboutSupport.showDir.label "Отвори директория">
+<!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
+variant of aboutSupport.showDir.label.  This allows us to use the preferred
+"Finder" terminology on Mac. -->
+<!ENTITY aboutSupport.showMac.label "Покажи във Finder">
+<!-- LOCALIZATION NOTE (aboutSupport.showWin.label): This is the Windows-specific
+variant of aboutSupport.showDir.label. -->
+<!ENTITY aboutSupport.showWin.label "Покажи папка">
+
+<!ENTITY aboutSupport.modifiedKeyPrefsTitle "Важни променени настройки">
+<!ENTITY aboutSupport.modifiedPrefsName "Име">
+<!ENTITY aboutSupport.modifiedPrefsValue "Стойност">
+
+<!-- LOCALIZATION NOTE (aboutSupport.userJSTitle, aboutSupport.userJSDescription): user.js is the name of the preference override file being checked. -->
+<!ENTITY aboutSupport.userJSTitle "Настройки user.js">
+<!ENTITY aboutSupport.userJSDescription "В папката на Вашия профил се намира <a id='prefs-user-js-link'>файл user.js</a>, който съдържа настройки, които не са направени от &brandShortName;.">
+
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Важни заключени настройки">
+<!ENTITY aboutSupport.lockedPrefsName "Име">
+<!ENTITY aboutSupport.lockedPrefsValue "Стойност">
+
+<!ENTITY aboutSupport.graphicsTitle "Графика">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Места за бази данни">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Целостност">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Проверка за цялостност">
+
+<!ENTITY aboutSupport.jsTitle "JavaScript">
+<!ENTITY aboutSupport.jsIncrementalGC "Инкрементален GC">
+
+<!ENTITY aboutSupport.a11yTitle "Достъпност">
+<!ENTITY aboutSupport.a11yActivated "Активирана">
+<!ENTITY aboutSupport.a11yForceDisabled "Забрани достъпност">
+
+<!ENTITY aboutSupport.libraryVersionsTitle "Версии на библиотеките">
+
+<!ENTITY aboutSupport.installationHistoryTitle "История на инсталациите">
+<!ENTITY aboutSupport.updateHistoryTitle "История на обновленията">
+
+<!ENTITY aboutSupport.copyTextToClipboard.label "Копирай текста в клипборда">
+<!ENTITY aboutSupport.copyRawDataToClipboard.label "Копирай необработените данни в клипборда">
+
+<!ENTITY aboutSupport.sandboxTitle "Пясъчник">
+
+<!ENTITY aboutSupport.safeModeTitle "Опитай безопасен режим">
+<!ENTITY aboutSupport.restartInSafeMode.label "Рестартиране с изключени добавки…">
+
+<!ENTITY aboutSupport.restartTitle "Опитайте рестартиране">
+<!ENTITY aboutSupport.restartNormal.label "Нормален рестарт…">

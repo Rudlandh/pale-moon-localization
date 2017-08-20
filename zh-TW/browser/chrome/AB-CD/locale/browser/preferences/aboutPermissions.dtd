@@ -15,7 +15,11 @@
 
 <!ENTITY header.defaults                 "所有網站的預設權限">
 
+<!ENTITY permissions.sitesReload         "重新載入清單中的網站">
+
 <!ENTITY permissions.forgetSite          "刪除與此網站有關的記錄">
+
+<!ENTITY permission.default              "使用預設值">
 
 <!ENTITY permission.alwaysAsk            "總是詢問">
 <!ENTITY permission.allow                "允許">
@@ -26,10 +30,16 @@
 <!ENTITY password.label                  "儲存密碼">
 <!ENTITY password.manage                 "管理密碼…">
 
+<!ENTITY image.label                     "載入圖片">
+
 <!ENTITY cookie.label                    "設定 Cookie">
 <!ENTITY cookie.remove                   "刪除 Cookie">
 <!ENTITY cookie.manage                   "管理 Cookie…">
 <!ENTITY cookie.removeAll                "刪除全部 Cookie">
+
+<!ENTITY desktop-notification.label      "顯示通知">
+
+<!ENTITY install.label                   "安裝擴充套件或佈景主題">
 
 <!ENTITY geo.label                       "透露地理位置">
 
@@ -42,3 +52,5 @@
 <!ENTITY popup.label                     "開啟彈出型視窗">
 
 <!ENTITY fullscreen.label                "全螢幕">
+
+<!ENTITY pointerLock.label               "隱藏滑鼠游標">

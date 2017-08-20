@@ -1,0 +1,10 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY removePassword.title              "Tanggalin ang Punong Password">
+<!ENTITY removeInfo.label                  "Dapat mong ilagay ang iyong kasalukuyang password para magpatuloy:">
+<!ENTITY removeWarning1.label              "Ang iyong Punong Password ay ginagamit upang maprotektahan ang mga sensitibong impormasyon gaya ng mga site password.">
+<!ENTITY removeWarning2.label              "Kung tinanggal mo ang iyong Punong Password ang iyong impormasyon ay hindi ma-poprotektahan kung ang iyong kompyuter ay makompromiso.">
+<!ENTITY setPassword.oldPassword.label     "Kasalukuyang password:">
+

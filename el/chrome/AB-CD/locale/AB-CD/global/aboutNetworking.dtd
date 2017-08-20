@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutNetworking.title                 "Σχετικά με τη δικτύωση">
+<!ENTITY aboutNetworking.warning               "Πολύ πειραματικό. Να μην χρησιμοποιείται χωρίς επίβλεψη από ενήλικα.">
+<!ENTITY aboutNetworking.showNextTime          "Εμφάνιση αυτής της προειδοποίησης την επόμενη φορά">
+<!ENTITY aboutNetworking.ok                    "OK">
+<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.sockets               "Sockets">
+<!ENTITY aboutNetworking.dns                   "DNS">
+<!ENTITY aboutNetworking.websockets            "WebSockets">
+<!ENTITY aboutNetworking.refresh               "Ανανέωση">
+<!ENTITY aboutNetworking.autoRefresh           "Αυτόματη ανανέωση κάθε 3 δευτερόλεπτα">
+<!ENTITY aboutNetworking.hostname              "Όνομα κεντρικού υπολογιστή">
+<!ENTITY aboutNetworking.port                  "Θύρα">
+<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.ssl                   "SSL">
+<!ENTITY aboutNetworking.active                "Ενεργό">
+<!ENTITY aboutNetworking.idle                  "Αδρανής">
+<!ENTITY aboutNetworking.host                  "Δ/νση υπολογιστή">
+<!ENTITY aboutNetworking.tcp                   "TCP">
+<!ENTITY aboutNetworking.sent                  "Απεσταλμένα">
+<!ENTITY aboutNetworking.received              "Ληφθέντα">
+<!ENTITY aboutNetworking.family                "Οικογένεια">
+<!ENTITY aboutNetworking.addresses             "Διευθύνσεις">
+<!ENTITY aboutNetworking.expires               "Λήγει (δευτερόλεπτα)">
+<!ENTITY aboutNetworking.messagesSent          "Απεσταλμένα μηνύματα">
+<!ENTITY aboutNetworking.messagesReceived      "Ληφθέντα Μηνύματα">
+<!ENTITY aboutNetworking.bytesSent             "Απεσταλμένα Bytes">
+<!ENTITY aboutNetworking.bytesReceived         "Ληφθέντα Bytes">

@@ -12,6 +12,10 @@
   Telemetri är <span>inaktiverad</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+Allmänna data
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Långsamma SQL-satser
 ">
@@ -20,12 +24,24 @@
   Hängningar i webbläsaren
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+  Trådhängningar
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogram
 ">
 
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Nyckelhistogram
+">
+
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Enkla mätningar
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+  Tilläggsdetaljer
 ">
 
 <!ENTITY aboutTelemetry.lateWritesSection "
@@ -40,12 +56,8 @@
   Histogram insamlade av tillägg
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Klicka för att fälla ut sektion
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Klicka för att fälla ihop sektion
+<!ENTITY aboutTelemetry.toggle "
+Klicka för att växla avsnitt
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -62,4 +74,8 @@
 
 <!ENTITY aboutTelemetry.hideSymbols "
   Visa rådata från hängningar
+">
+
+<!ENTITY aboutTelemetry.filterText "
+  Filter (strängar eller /regexp/)
 ">

@@ -7,18 +7,37 @@
 <!-- LOCALIZATION NOTE (aboutSupport.pageSubtitle): don't change the 'supportLink' id. -->
 <!ENTITY aboutSupport.pageSubtitle "  تحتوي هذه الصفحة معلومات تقنية قد تكون مفيدة عندما تحاول حل مشكلة ما. إن كنت تبحث عن إجابات لأسئلة شائعة تخص &brandShortName;، تحقق من <a id='supportLink'>موقع الدعم</a>.">
 
+<!ENTITY aboutSupport.crashes.title "بلاغات الانهيار">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "معرّف البلاغ">
+<!ENTITY aboutSupport.crashes.sendDate "أُرسلَ">
+<!ENTITY aboutSupport.crashes.allReports "كل بلاغات الانهيار">
+<!ENTITY aboutSupport.crashes.noConfig "لم يُضبط هذا التطبيق لعرض بلاغات الانهيار.">
+
 <!ENTITY aboutSupport.extensionsTitle "الامتدادات">
 <!ENTITY aboutSupport.extensionName "الاسم">
 <!ENTITY aboutSupport.extensionEnabled "مفعّل">
 <!ENTITY aboutSupport.extensionVersion "النسخة">
 <!ENTITY aboutSupport.extensionId "المعرّف">
 
+<!ENTITY aboutSupport.experimentsTitle "مزايا تجريبية">
+<!ENTITY aboutSupport.experimentName "الاسم">
+<!ENTITY aboutSupport.experimentId "المعرّف">
+<!ENTITY aboutSupport.experimentDescription "الوصف">
+<!ENTITY aboutSupport.experimentActive "نشط">
+<!ENTITY aboutSupport.experimentEndDate "تاريخ الانتهاء">
+<!ENTITY aboutSupport.experimentHomepage "صفحة البداية">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "أساسيات التطبيق">
 <!ENTITY aboutSupport.appBasicsName "الاسم">
 <!ENTITY aboutSupport.appBasicsVersion "النسخة">
+<!ENTITY aboutSupport.appBasicsBuildID "معرف البناء">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "قناة التحديث">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "تأريخ التحديث">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "أظهر تأريخ التحديث">
 
@@ -31,8 +50,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "الملحقات المفعّلة">
 <!ENTITY aboutSupport.appBasicsBuildConfig "إعدادات البناء">
 <!ENTITY aboutSupport.appBasicsUserAgent "عميل المستخدم">
-<!ENTITY aboutSupport.appBasicsCrashIDs "بلاغات الانهيار">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "استخدام الذاكرة">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "نوافذ متعددة السيرورات">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
 
 <!ENTITY aboutSupport.showDir.label "افتح المجلد">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -51,7 +74,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "تفضيلات user.js">
 <!ENTITY aboutSupport.userJSDescription "يحتوي مجلد إعداداتك على <a id='prefs-user-js-link'>ملف user.js</a> به تفضيلات لم يُنشئها &brandShortName;.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "التفضيلات المهمّة المُوصدة">
+<!ENTITY aboutSupport.lockedPrefsName "الاسم">
+<!ENTITY aboutSupport.lockedPrefsValue "القيمة">
+
 <!ENTITY aboutSupport.graphicsTitle "الرسوميات">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
 
 <!ENTITY aboutSupport.jsTitle "جافاسكربت">
 <!ENTITY aboutSupport.jsIncrementalGC "جامع القمامة التزايدي">
@@ -67,3 +98,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "انسخ النص إلى الحافظة">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "انسخ البيانات الخام إلى الحافظة">
+
+<!ENTITY aboutSupport.sandboxTitle "العزل">
+
+<!ENTITY aboutSupport.safeModeTitle "جرّب الوضع الآمن">
+<!ENTITY aboutSupport.restartInSafeMode.label "أعد التشغيل مع تعطيل الإضافات…">
+
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">

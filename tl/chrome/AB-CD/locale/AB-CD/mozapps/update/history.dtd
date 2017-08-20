@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+
+<!ENTITY  history.title             "Kasaysayan ng Mga Update">
+<!ENTITY  history.intro             "Ang mga sumusunod na mga update ay na-italaga:">
+<!ENTITY  closebutton.label         "Isara">
+                                     
+<!ENTITY  noupdates.label           "Walang mga update ang naka-talaga">
+
+<!ENTITY  name.header               "Pangalan ng Update">
+<!ENTITY  date.header               "Petsa ng Pagkakatalaga">
+<!ENTITY  type.header               "Uri">
+<!ENTITY  state.header              "Kalagayan">
+

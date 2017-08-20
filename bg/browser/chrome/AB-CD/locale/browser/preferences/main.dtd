@@ -1,0 +1,44 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY startup.label             "Стартиране">
+
+<!ENTITY startupPage.label         "Когато &brandShortName; стартира:">
+<!ENTITY startupPage.accesskey     "с">
+<!ENTITY startupHomePage.label     "Показвай домашната страница">
+<!ENTITY startupBlankPage.label    "Показвай празна страница">
+<!ENTITY startupLastSession.label  "Възстановяване на прозорците и разделите от последния път">
+
+<!ENTITY homepage.label            "Домашна страница:">
+<!ENTITY homepage.accesskey        "Д">
+<!ENTITY useCurrentPage.label      "Използвай текущата страница">
+<!ENTITY useCurrentPage.accesskey  "И">
+<!ENTITY useMultiple.label         "Използвай текущите страници">
+<!ENTITY chooseBookmark.label      "Използвай отметка…">
+<!ENTITY chooseBookmark.accesskey  "о">
+<!ENTITY restoreDefault.label      "Възстанови по подразбиране">
+<!ENTITY restoreDefault.accesskey  "п">
+
+<!ENTITY downloads.label     "Сваляния">
+
+<!ENTITY showWhenDownloading.label     "Показвай прозореца за сваляния при сваляне на файл">
+<!ENTITY showWhenDownloading.accesskey "з">
+<!ENTITY closeWhenDone.label "Затвори го след приключване на всички сваляния">
+<!ENTITY closeWhenDone.accesskey "в">
+<!ENTITY saveTo.label "Запази файловете в">
+<!ENTITY saveTo.accesskey "З">
+<!ENTITY chooseFolderWin.label        "Преглед…">
+<!ENTITY chooseFolderWin.accesskey    "П">
+<!ENTITY chooseFolderMac.label        "Избери…">
+<!ENTITY chooseFolderMac.accesskey    "и">
+<!ENTITY alwaysAsk.label "Винаги ме питай къде да запазвам файловете">
+<!ENTITY alwaysAsk.accesskey "В">
+
+<!ENTITY toolkit.classic.download.window.label       "Използвай класическия прозорец за сваляне">
+
+<!ENTITY zoneInfo.label       "Записаните документи имат информация за зона:">
+<!ENTITY zoneInfo.never       "Никога">
+<!ENTITY zoneInfo.always      "Винаги">
+<!ENTITY zoneInfo.system      "Използвай системните настройки">
+

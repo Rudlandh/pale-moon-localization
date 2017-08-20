@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY newWindowsAsTabs.label       "Yeni pencere yerine yeni sekme aç">
+<!ENTITY newWindowsAsTabs.label       "Yeni pencere yerine yeni sekmede aç">
 <!ENTITY newWindowsAsTabs.accesskey   "s">
 
 <!ENTITY warnCloseMultipleTabs.label  "Çok sayıda sekme kapatılırken beni uyar">
@@ -19,3 +19,15 @@
 
 <!ENTITY showTabsInTaskbar.label          "Sekme ön izlemelerini Windows görev çubuğunda göster">
 <!ENTITY showTabsInTaskbar.accesskey      "e">
+
+<!ENTITY showTabBar.label                   "Sekme çubuğunu daima göster">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "İlgili sekmeleri geçerli sekmenin yanına yerleştirin">
+<!ENTITY contextLoadInBackground.label      "Bir bağlam araştırması yaparken hemen yeni sekmeye geçin">
+<!ENTITY closeWindowWithLastTab.label       "Son sekme kapatıldığında pencereyi kapatın">
+
+<!ENTITY newtabPage.label                   "Yeni bir sekme açarken şunu gösterin:">
+<!ENTITY newtabPage.blank.label             "Boş sayfa">
+<!ENTITY newtabPage.home.label              "Pale Moon Başlangıç sayfası">
+<!ENTITY newtabPage.quickdial.label         "Hızlı arama sayfası">

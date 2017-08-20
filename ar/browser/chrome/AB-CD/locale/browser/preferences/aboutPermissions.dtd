@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY permissionsManager.title        "مدير التصريحات">
+<!ENTITY permissionsManager.title        "مدير التصاريح">
 
 <!ENTITY sites.search                    "مواقع البحث">
 <!ENTITY sites.allSites                  "كل المواقع">
@@ -15,7 +15,11 @@
 
 <!ENTITY header.defaults                 "التصريحات المبدئية لجميع المواقع">
 
+<!ENTITY permissions.sitesReload         "أعد تحميل قائمة المواقع">
+
 <!ENTITY permissions.forgetSite          "انسَ هذا الموقع">
+
+<!ENTITY permission.default              "استخدم الافتراضي">
 
 <!ENTITY permission.alwaysAsk            "اسأل دائمًا">
 <!ENTITY permission.allow                "اسمح">
@@ -26,10 +30,16 @@
 <!ENTITY password.label                  "خزّن كلمات السر">
 <!ENTITY password.manage                 "إدارة كلمات السر…">
 
+<!ENTITY image.label                     "تحميل الصور">
+
 <!ENTITY cookie.label                    "اضبط الكعكات">
 <!ENTITY cookie.remove                   "أزِل الكعكات">
 <!ENTITY cookie.manage                   "إدارة الكعكات…">
 <!ENTITY cookie.removeAll                "أزِل كل الكعكات">
+
+<!ENTITY desktop-notification.label      "إظهار التنبيهات">
+
+<!ENTITY install.label                   "تثبيت السمات أو الامتدادات">
 
 <!ENTITY geo.label                       "تشارَك الموقع">
 
@@ -42,3 +52,5 @@
 <!ENTITY popup.label                     "افتح النوافذ المنبثقة">
 
 <!ENTITY fullscreen.label                "ملء الشاشة">
+
+<!ENTITY pointerLock.label               "إخفاء مؤشر الفأرة">

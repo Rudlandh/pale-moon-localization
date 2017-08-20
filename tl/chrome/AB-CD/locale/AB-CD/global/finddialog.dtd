@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Hanapin sa Pahinang Ito">
+<!ENTITY findField.label "Hanapin ang:">
+<!ENTITY findField.accesskey "n">
+<!ENTITY caseSensitiveCheckbox.label "Match case">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label "Balutin">
+<!ENTITY wrapCheckbox.accesskey "W">
+<!ENTITY findButton.label "Hanapin ang Susunod">
+<!ENTITY findButton.accesskey "F">
+<!ENTITY cancelButton.label "Kanselahin">
+<!ENTITY closeButton.label "Isara">
+<!ENTITY up.label "Taas">
+<!ENTITY up.accesskey "U">
+<!ENTITY down.label "Ibaba">
+<!ENTITY down.accesskey "D">
+<!ENTITY direction.label "Direksyon">

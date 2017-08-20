@@ -6,9 +6,9 @@
 
 <!ENTITY startupPage.label         "Als &brandShortName; start:">
 <!ENTITY startupPage.accesskey     "t">
-<!ENTITY startupHomePage.label     "Mijn startpagina tonen">
-<!ENTITY startupBlankPage.label    "Een lege pagina tonen">
-<!ENTITY startupLastSession.label  "Mijn vensters en tabbladen van de vorige keer tonen">
+<!ENTITY startupHomePage.label     "Mijn startpagina weergeven">
+<!ENTITY startupBlankPage.label    "Een lege pagina weergeven">
+<!ENTITY startupLastSession.label  "Mijn vensters en tabbladen van de vorige sessie weergeven">
 
 <!ENTITY homepage.label            "Startpagina:">
 <!ENTITY homepage.accesskey        "p">
@@ -22,15 +22,23 @@
 
 <!ENTITY downloads.label     "Downloads">
 
-<!ENTITY showWhenDownloading.label     "Downloadbeheerder tonen tijdens het downloaden van een bestand">
+<!ENTITY showWhenDownloading.label     "Downloadbeheerder weergeven tijdens het downloaden van een bestand">
 <!ENTITY showWhenDownloading.accesskey "D">
-<!ENTITY closeWhenDone.label           "Sluiten wanneer alle downloads zijn voltooid">
-<!ENTITY closeWhenDone.accesskey       "w">
-<!ENTITY saveTo.label                  "Bestanden opslaan in">
-<!ENTITY saveTo.accesskey              "o">
-<!ENTITY chooseFolderWin.label         "Bladeren…">
-<!ENTITY chooseFolderWin.accesskey     "a">
-<!ENTITY chooseFolderMac.label         "Kiezen…">
-<!ENTITY chooseFolderMac.accesskey     "z">
-<!ENTITY alwaysAsk.label               "Mij altijd vragen waar bestanden moeten worden opgeslagen">
-<!ENTITY alwaysAsk.accesskey           "v">
+<!ENTITY closeWhenDone.label "Sluiten wanneer alle downloads zijn voltooid">
+<!ENTITY closeWhenDone.accesskey "w">
+<!ENTITY saveTo.label "Bestanden opslaan in">
+<!ENTITY saveTo.accesskey "o">
+<!ENTITY chooseFolderWin.label        "Bladeren…">
+<!ENTITY chooseFolderWin.accesskey    "a">
+<!ENTITY chooseFolderMac.label        "Kiezen…">
+<!ENTITY chooseFolderMac.accesskey    "z">
+<!ENTITY alwaysAsk.label "Mij altijd vragen waar bestanden moeten worden opgeslagen">
+<!ENTITY alwaysAsk.accesskey "v">
+
+<!ENTITY toolkit.classic.download.window.label       "Klassiek downloadvenster gebruiken">
+
+<!ENTITY zoneInfo.label       "Opgeslagen bestanden hebben zoneinformatie:">
+<!ENTITY zoneInfo.never       "Nooit">
+<!ENTITY zoneInfo.always      "Altijd">
+<!ENTITY zoneInfo.system      "Systeeminstelling gebruiken">
+

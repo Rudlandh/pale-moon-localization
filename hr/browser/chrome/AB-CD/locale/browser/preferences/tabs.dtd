@@ -19,3 +19,15 @@
 
 <!ENTITY showTabsInTaskbar.label          "Prikaži pretpregled kartica u Windows traci zadataka">
 <!ENTITY showTabsInTaskbar.accesskey      "k">
+
+<!ENTITY showTabBar.label                   "Uvijek pokazati traku kartica">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "Insert related tabs next to the current tab">
+<!ENTITY contextLoadInBackground.label      "Prilikom pretrtaživanja konteksta, odmah prebaci na novu karticu">
+<!ENTITY closeWindowWithLastTab.label       "Zatvorite prozor kada je zatvorena kartica">
+
+<!ENTITY newtabPage.label                   "Prilikom otvaranja nove kartice, pokaži:">
+<!ENTITY newtabPage.blank.label             "Praznu stranicu">
+<!ENTITY newtabPage.home.label              "Pale Moon početnu stranicu">
+<!ENTITY newtabPage.quickdial.label         "Stranicu brzog biranja">

@@ -1,0 +1,66 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title    "Setup ng Pahina">
+
+<!ENTITY basic.tab           "Format &amp; Mga Pagpipilian">
+
+<!ENTITY formatGroup.label   "Format">
+
+<!ENTITY orientation.label   "Pagsasaayos:">
+<!ENTITY portrait.label      "Patayo">
+<!ENTITY portrait.accesskey  "P">
+<!ENTITY landscape.label     "Pahalang">
+<!ENTITY landscape.accesskey "L">
+
+<!ENTITY scale.label         "Scale:">
+<!ENTITY scale.accesskey     "S">
+<!ENTITY scalePercent        "&#37;">
+
+<!ENTITY shrinkToFit.label   "Paliitin para sumakto sa Lapad ng Pahina">
+<!ENTITY shrinkToFit.accesskey "W">
+
+<!ENTITY optionsGroup.label  "Mga Pagpipilian">
+
+<!ENTITY printBG.label       "I-print ang Background (mga kulay at larawan)">
+<!ENTITY printBG.accesskey   "B">
+
+<!ENTITY advanced.tab        "Mardyin &amp; Header/Footer">
+
+<!ENTITY marginGroup.label   "Mardyin (#1)">
+<!ENTITY marginUnits.inches  "pulgada">
+<!ENTITY marginUnits.metric  "milimetro">
+<!ENTITY marginTop.label     "Tuktok:">
+<!ENTITY marginTop.accesskey "T">
+<!ENTITY marginBottom.label  "Ibaba:">
+<!ENTITY marginBottom.accesskey "B">
+<!ENTITY marginLeft.label    "Kaliwa:">
+<!ENTITY marginLeft.accesskey "L">
+<!ENTITY marginRight.label   "Kanan:">
+<!ENTITY marginRight.accesskey "R">
+
+<!ENTITY headerFooter.label  "Headers &amp; Footers">
+
+<!ENTITY hfLeft.label        "Kaliwa:">
+<!ENTITY hfCenter.label      "Gitna:">
+<!ENTITY hfRight.label       "Kanan:">
+<!ENTITY headerLeft.tip      "Kaliwang header">
+<!ENTITY headerCenter.tip    "Gitnang header">
+<!ENTITY headerRight.tip     "Kanang header">
+<!ENTITY footerLeft.tip      "Kaliwang footer">
+<!ENTITY footerCenter.tip    "Gitnang footer">
+<!ENTITY footerRight.tip     "Kanang footer">
+
+<!ENTITY hfTitle             "Pamagat">
+<!ENTITY hfURL               "URL">
+<!ENTITY hfDateAndTime       "Petsa/Oras">
+<!ENTITY hfPage              "Pahina #">
+<!ENTITY hfPageAndTotal      "Pahina # ng #">
+<!ENTITY hfBlank             "--blanko--">
+<!ENTITY hfCustom            "Pasadya…">
+
+<!ENTITY customPrompt.title  "Pasadya…">
+<!ENTITY customPrompt.prompt "Ilagay ang iyong pasadyang header/footer na teksto">

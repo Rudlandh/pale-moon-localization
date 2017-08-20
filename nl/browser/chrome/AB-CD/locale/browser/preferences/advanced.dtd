@@ -89,7 +89,7 @@
 
 <!ENTITY updateAutoMetroWarn.label       "(Windows 8-stijl &brandShortName; controleert add-on-compatibiliteit niet)">
 
-<!ENTITY updateHistory.label             "Updategeschiedenis tonen">
+<!ENTITY updateHistory.label             "Updategeschiedenis weergeven">
 <!ENTITY updateHistory.accesskey         "d">
 
 <!ENTITY updateOthers.label              "Automatisch bijwerken:">
@@ -98,6 +98,10 @@
 
 <!ENTITY offlineNotify.label             "Mij vertellen wanneer een website vraagt gegevens op te slaan voor offlinegebruik">
 <!ENTITY offlineNotify.accesskey         "e">
+<!ENTITY offlineAppsPermissions.label    "Mij vertellen wanneer een website vraagt gegevens op te slaan voor offlinegebruik:">
+<!ENTITY offlineAppsPermissions.Allow    "Standaard toestaan">
+<!ENTITY offlineAppsPermissions.Ask      "Altijd vragen">
+<!ENTITY offlineAppsPermissions.Deny     "Weigeren">
 <!ENTITY offlineNotifyExceptions.label   "Uitzonderingen…">
 <!ENTITY offlineNotifyExceptions.accesskey "U">
 
@@ -108,14 +112,37 @@
 <!ENTITY offlineAppRemove.confirm        "Offlinegegevens verwijderen">
 
 <!ENTITY certificateTab.label            "Certificaten">
+<!ENTITY certGroup.label                 "Persoonlijk certificaat">
 <!ENTITY certSelection.description       "Wanneer een server om mijn persoonlijke certificaat vraagt:">
 <!ENTITY certs.auto                      "Er automatisch een selecteren">
 <!ENTITY certs.auto.accesskey            "a">
 <!ENTITY certs.ask                       "Mij elke keer vragen">
 <!ENTITY certs.ask.accesskey             "e">
+<!ENTITY ocspGroup.label                 "Certificaatvalidatie">
+<!ENTITY enableOCSP.label                "Het Online Certificate Status Protocol (OCSP) gebruiken om de geldigheid van certificaten te bevestigen">
+<!ENTITY enableOCSP.accesskey            "O">
+<!ENTITY requireOCSP.label               "Wanneer een OCSP-serververbinding mislukt, het certificaat als ongeldig behandelen">
+<!ENTITY requireOCSP.accesskey           "W">
 <!ENTITY viewCerts.label                 "Certificaten bekijken">
 <!ENTITY viewCerts.accesskey             "C">
-<!ENTITY verify2.label                   "Validatie">
-<!ENTITY verify2.accesskey               "V">
 <!ENTITY viewSecurityDevices.label       "Beveiligingsapparaten">
 <!ENTITY viewSecurityDevices.accesskey   "B">
+
+<!ENTITY UACompatGroup.label    "Compatibiliteit">
+<!ENTITY UACompat.label         "Gebruikersagent:">
+<!ENTITY UACompat.Native        "Standaard">
+<!ENTITY UACompat.Gecko         "Gecko compatibiliteit">
+<!ENTITY UACompat.Firefox       "Firefox compatibiliteit">
+
+<!ENTITY scrollparamTab.label               "Scrollen">
+<!ENTITY smoothscroll.explain.label         "De parameters hieronder hebben alleen effect als het selectievakje voor vloeiend scrollen is ingeschakeld.">
+<!ENTITY smoothscroll.to                    "tot">
+<!ENTITY smoothscroll.params.label          "Vloeiend scrollen parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Vloeiend scrollen met het muiswiel">
+<!ENTITY smoothscroll.mousewheel.duration   "Muiswiel scroll duur:">
+<!ENTITY smoothscroll.arrowkeys.label       "Vloeiend scrollen met pijltoetsen">
+<!ENTITY smoothscroll.arrowkeys.duration    "Pijltoets scroll duur:">
+<!ENTITY smoothscroll.pagekeys.label        "Vloeiend scrollen met pagina omhoog/omlaag">
+<!ENTITY smoothscroll.pagekeys.duration     "Pagina omhoog/omlaag scroll duur:">
+<!ENTITY smoothscroll.scrollbar.label       "Vloeiend scrollen met de schuifbalk">
+<!ENTITY smoothscroll.scrollbar.duration    "De duur van scrollen met de schuifbalk:">

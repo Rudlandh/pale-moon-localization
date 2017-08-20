@@ -1,0 +1,43 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  blockPopups.label           "Harangin ang mga pop-up windows">
+<!ENTITY  blockPopups.accesskey       "B">
+<!ENTITY  popupExceptions.label       "Mga Eksepsyon…">
+<!ENTITY  popupExceptions.accesskey   "E">
+
+<!ENTITY  loadImages.label            "Pag-load ng mga larawan:">
+<!ENTITY  loadImages.always           "Kusa">
+<!ENTITY  loadImages.never            "Hindi kailanman">
+<!ENTITY  loadImages.no3rdparty       "Pinagmulang server lamang">
+
+<!ENTITY  fontsAndColors.label        "Mga Font at Kulay">
+
+<!ENTITY  defaultFont.label           "Paunang-tukoy na font:">
+<!ENTITY  defaultFont.accesskey       "D">
+<!ENTITY  defaultSize.label           "Sukat:">
+<!ENTITY  defaultSize.accesskey       "S">
+
+<!ENTITY  advancedFonts.label         "Advanced…">
+<!ENTITY  advancedFonts.accesskey     "A">
+
+<!ENTITY  colors.label                "Mga Kulay…">
+<!ENTITY  colors.accesskey            "C">
+
+<!ENTITY  languages.label             "Mga Wika">
+<!ENTITY  chooseLanguage.label        "Piliin ang iyong mas gustong wika para sa pagbabasa ng mga pahina">
+<!ENTITY  chooseButton.label          "Piliin…">
+<!ENTITY  chooseButton.accesskey      "p">
+
+<!ENTITY  video.label                 "Video">
+<!ENTITY  videoMSE.label              "Paganahin ang Media Source Extensions (MSE)">
+<!ENTITY  videoMSE.accesskey          "M">
+<!ENTITY  videoMSENFR.label           "Gamitin ang MSE asynchronously">
+<!ENTITY  videoMSENFR.accesskey       "U">
+<!ENTITY  videoMSEMP4.label           "Paganahin ang MSE para sa MP4 video">
+<!ENTITY  videoMSEMP4.accesskey       "4">
+<!ENTITY  videoMSEWebM.label          "Paganahin ang MSE para sa WebM video">
+<!ENTITY  videoMSEWebM.accesskey      "W">
+
+

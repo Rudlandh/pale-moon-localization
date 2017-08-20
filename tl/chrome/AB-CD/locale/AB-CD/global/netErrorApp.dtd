@@ -1,0 +1,13 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Error messages that are likely to be overridden by applications go in this
+     file, all messages that likely don't need to tie into app-specific UI
+     should go into netError.dtd -->
+
+<!ENTITY securityOverride.linkText "O maari ka din na maglapat ng eksepsyon…">
+<!ENTITY securityOverride.warningContent "
+<p>Hindi ka dapat maglapat ng eksepsyon kung ikaw ay gumagamit ng koneksyon sa internet na hindi mo ganap na pinagkakatiwalaan o kung ikaw ay hindi pa sanay na nakakakita ng babala para sa server na ito.</p>
+<p>Kung gusto mo paring maglapat ng eksepsyon sa site na ito, maari mo itong gawin sa iyong advanced encryption settings.</p>
+">

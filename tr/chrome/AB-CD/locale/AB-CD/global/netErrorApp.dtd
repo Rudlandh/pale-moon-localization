@@ -6,8 +6,7 @@
      file, all messages that likely don't need to tie into app-specific UI
      should go into netError.dtd -->
 
-<!ENTITY securityOverride.linkText "İsterseniz ayrıcalık tanıyın…">
-<!ENTITY securityOverride.warningContent "<p>Tamamen güvenmediğiniz bir internet bağlantısı kullanıyorsanız veya bu sunucudan uyarı almaya alışkın değilseniz ayrıcalık tanımamalısınız.</p> 
- 
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button> 
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>">
+<!ENTITY securityOverride.linkText "Ya da isterseniz ayrıcalık tanıyın…">
+<!ENTITY securityOverride.warningContent "
+<p>Tamamen güvenmediğiniz bir internet bağlantısı kullanıyorsanız veya bu sunucu için bir uyarı görmeye alışkın değilseniz, bir istisna eklememelisiniz.</p><p>Bu site için hala bir istisna eklemek arzusundaysanız, bunu gelişmiş şifreleme ayarlarınızda yapabilirsiniz.</p>
+">

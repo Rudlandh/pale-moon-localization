@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutNetworking.title                 "Относно мрежата">
+<!ENTITY aboutNetworking.warning               "Всичко е много експериментално. Не го правете на своя глава.">
+<!ENTITY aboutNetworking.showNextTime          "Покажи това предупреждение следващия път">
+<!ENTITY aboutNetworking.ok                    "Добре">
+<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.sockets               "Гнезда">
+<!ENTITY aboutNetworking.dns                   "DNS">
+<!ENTITY aboutNetworking.websockets            "WebSockets">
+<!ENTITY aboutNetworking.refresh               "Опресни">
+<!ENTITY aboutNetworking.autoRefresh           "Автоматичното обновяване на всеки 3 секунди">
+<!ENTITY aboutNetworking.hostname              "Име на хост">
+<!ENTITY aboutNetworking.port                  "Порт">
+<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.ssl                   "SSL">
+<!ENTITY aboutNetworking.active                "Активно">
+<!ENTITY aboutNetworking.idle                  "Не се използва">
+<!ENTITY aboutNetworking.host                  "Хост">
+<!ENTITY aboutNetworking.tcp                   "TCP">
+<!ENTITY aboutNetworking.sent                  "Изпратено">
+<!ENTITY aboutNetworking.received              "Получено">
+<!ENTITY aboutNetworking.family                "Семейство">
+<!ENTITY aboutNetworking.addresses             "Адреси">
+<!ENTITY aboutNetworking.expires               "Изтича (секунди)">
+<!ENTITY aboutNetworking.messagesSent          "Съобщението е изпратено">
+<!ENTITY aboutNetworking.messagesReceived      "Съобщенията са получени">
+<!ENTITY aboutNetworking.bytesSent             "Изпратени байтове">
+<!ENTITY aboutNetworking.bytesReceived         "Получени байтове">

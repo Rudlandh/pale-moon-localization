@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE (unsupportedPlatform.pre): Mobile only. Flash (the only plugin available on mobile)
+     is not supported on some devices. Include a trailing space as needed. -->
+<!ENTITY unsupportedPlatform.pre                             "Pasensya na sapagkat hindi makapag-play ng Flash ang &brandShortName; sa device na ito. ">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.learnMore): Mobile only. This text is used to link to a SUMO page explaining why Flash is not
+     supported on this device. Use the unicode ellipsis char, \u2026, or use "..." if \u2026 doesn't suit traditions in your locale. -->
+<!ENTITY unsupportedPlatform.learnMore                       "Matuto nang higit pa…">
+<!-- LOCALIZATION NOTE (unsupportedPlatform.post): Mobile only. Include text here if needed for your locale. -->
+<!ENTITY unsupportedPlatform.post                            "">
+
+<!ENTITY missingPlugin                                       "Kailangan ng plugin para maipakita itong nilalaman.">
+<!-- LOCALIZATION NOTE (tapToPlayPlugin): Mobile (used for touch interfaces) only has one type of plugin possible. -->
+<!ENTITY tapToPlayPlugin                                     "Mag-tap dito para paganahin ang plugin.">
+<!ENTITY clickToActivatePlugin                               "Paganahin ang plugin.">
+<!ENTITY checkForUpdates                                     "Maghanap ng mga update…">
+<!ENTITY disabledPlugin                                      "Ang plugin ay hindi pinapagana.">
+<!ENTITY blockedPlugin.label                                 "Itong plugin ay hinarang para sa iyong proteksyon.">
+<!ENTITY hidePluginBtn.label                                 "Itago ang plugin">
+<!ENTITY managePlugins                                       "Pamahalaan ang mga plugin…">
+
+<!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
+<!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
+<!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
+<!ENTITY reloadPlugin.pre                                    "">
+<!ENTITY reloadPlugin.middle                                 "Ulitin pag-load sa pahina">
+<!ENTITY reloadPlugin.post                                   " para subukan muli.">
+<!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
+<!ENTITY report.please                                       "Magpadala ng ulat sa pagpalya">
+<!ENTITY report.submitting                                   "Ipinapadala ang ulat…">
+<!ENTITY report.submitted                                    "Ulat sa pagpalya ay napadala na.">
+<!ENTITY report.disabled                                     "Pagulat sa pagpalya ay hindi pinapagana.">
+<!ENTITY report.failed                                       "Nabigong isumite.">
+<!ENTITY report.unavailable                                  "Walang ulat na matatagpuan.">
+<!ENTITY report.comment                                      "Magbigay ng komento (mga komento ay nakikita ng publiko)">
+<!ENTITY report.pageURL                                      "Isama ang URL ng pahina">
+
+<!ENTITY plugin.file                                         "File">
+<!ENTITY plugin.mimeTypes                                    "Mga Uri ng MIME">
+<!ENTITY plugin.flashProtectedMode.label                     "Paganahin ang protektadong mode ng Adobe Flash">

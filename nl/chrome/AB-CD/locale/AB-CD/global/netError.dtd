@@ -8,66 +8,34 @@
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Kan geen verbinding maken">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "<p>Hoewel de site geldig lijkt, kan de browser geen verbinding maken.</p><ul><li>Misschien is de site tijdelijk niet beschikbaar. Probeer het later nog eens.</li><li>Kunt u geen andere sites doorzoeken? Controleer de netwerkverbinding van de computer.</li><li>Wordt uw computer of netwerk beveiligd door een firewall of proxy? Onjuiste instellingen kunnen het webbrowsen verstoren</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Dit adres heeft beperkte toegang">
-<!ENTITY deniedPortAccess.longDesc "Dit adres gebruikt een netwerkpoort (bijv. <q>palemoon.org:80</q> voor poort 80 op palemoon.org) die normaal gesproken wordt gebruikt voor andere doeleinden dan websurfen. Pale Moon heeft het verzoek geannuleerd om u te behoeden voor misbruik van andere protocollen.">
+<!ENTITY deniedPortAccess.title "Poort heeft beperkte toegang om veiligheidsredenen">
+<!ENTITY deniedPortAccess.longDesc "<p>Het opgegeven adres specificeert een poort (bijv. <q> palemoon.org:25 </q> voor poort 25 op palemoon.org) die normaal gesproken gebruikt wordt voor <em>andere</em> doeleinden dan webbrowsen. De browser heeft het verzoek terwille van uw bescherming en veiligheid geannuleerd.</p>">
 
 <!ENTITY dnsNotFound.title "Server niet gevonden">
-<!ENTITY dnsNotFound.longDesc "
-<ul>
-  <li>Controleer het adres op typefouten, zoals
-    <strong>ww</strong>.voorbeeld.com in plaats van
-    <strong>www</strong>.voorbeeld.com</li>
-  <li>Controleer uw netwerkverbinding als u geen enkele pagina kunt
-    laden.</li>
-  <li>Verzeker u ervan dat &brandShortName; toegang heeft tot het web als uw 
-    computer of netwerk is beveiligd door een firewall of proxyserver.</li>
-</ul>
-">
+<!ENTITY dnsNotFound.longDesc "<p>De browser kon de hostserver niet vinden voor het verstrekte adres.</p><ul><li>Heeft het domein correct getypt? (bijv.  <q><strong>ww</strong>.mozilla.org</q> in plaats van <q><strong>www</strong>.mozilla.org</q>)</li><li>Weet u zeker dat dit domeinadres bestaat? De registratie eran kan zijn verlopen.</li><li>Kunt u geen andere sites doorzoeken? Controleer uw netwerkverbinding en DNS-serverinstellingen.</li><li>Wordt uw computer of netwerk beveiligd door een firewall of proxy? Onjuiste instellingen kunnen het webbrowsen verstoren.</li></ul>">
 
 <!ENTITY fileNotFound.title "Bestand niet gevonden">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>Controleer de bestandsnaam op grote/kleine letters of andere typefouten.</li>
-  <li>Controleer of het bestand is verplaatst, hernoemd of verwijderd.</li>
-</ul>
-">
+<!ENTITY fileNotFound.longDesc "<ul><li>Kan het item zijn hernoemd, verwijderd of verplaatst?</li><li> Is er spelling, hoofdletter of andere typografische fout in het adres?</li><li>Heeft u Voldoende toegangsrechten voor het gevraagde item?</li></ul>">
 
-<!ENTITY generic.title "Oei.">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; kan om één of andere reden deze pagina niet laden.</p>
-">
+<!ENTITY generic.title "Kan het verzoek niet uitvoeren">
+<!ENTITY generic.longDesc "<p>Aanvullende informatie over dit probleem of fout is momenteel niet beschikbaar.</p>">
 
-<!ENTITY malformedURI.title "Het adres is niet geldig">
-<!ENTITY malformedURI.longDesc "
-<ul>
-  <li>Webadressen worden doorgaans geschreven als
-    <strong>http://www.voorbeeld.com/</strong></li>
-  <li>Let erop dat u voorwaartse slashes gebruikt (d.i.
-    <strong>/</strong>).</li>
-</ul>
-">
+<!ENTITY malformedURI.title "Ongeldig adres">
+<!ENTITY malformedURI.longDesc "<p>The opgegeven addres werd niet herkend. Controleer de adresbalk op vergissingen en probeer het nog eens.</p>">
 
 <!ENTITY netInterrupt.title "De verbinding werd onderbroken">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "<p>De browser heeft een succesvolle verbinding gemaakt, maar de verbinding werd onderbroken tijdens het overbrengen van informatie. Probeer het opnieuw.</p><ul><li>Kunt u geen andere sites doorzoeken? Controleer de netwerkverbinding van de computer.</li><li>Nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor hulp.</li></ul>">
 
 <!ENTITY notCached.title "Document verlopen">
-<!ENTITY notCached.longDesc "<p>Het opgevraagde document is niet beschikbaar in de buffer van &brandShortName;.</p><ul><li>Als veiligheidsvoorzorgsmaatregel vraagt &brandShortName; gevoelige documenten niet automatisch opnieuw op.</li><li>Klik op Opnieuw proberen om het document opnieuw van de website op te vragen.</li></ul>">
+<!ENTITY notCached.longDesc "<p>Het gevraagde document is niet beschikbaar in de browsercache.</p><ul><li>Als beveiligingsvoorzorg vraagt ​​de browser geen gevoelige documenten opnieuw automatisch.</li><li>Klik 'Probeer opnieuw' om het document opnieuw op te vragen vanaf de website.</li></ul>">
 
-<!ENTITY netOffline.title "Offlinemodus">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>Druk op “Opnieuw proberen” om naar de onlinemodus over te schakelen en vernieuw de pagina.</li>
-</ul>
-">
+<!ENTITY netOffline.title "Offline-modus">
+<!ENTITY netOffline.longDesc2 "<p>De browser werkt in de offline modus en kan niet verbinden met het aangevraagde item.</p><ul><li>Is de computer aangesloten op een actief netwerk?</li><li>Druk op &quot;Probeer opnieuw&quot; om om te schakelen naar de online modus en probeer de pagina opnieuw te laden.</li></ul>">
 
 <!ENTITY contentEncodingError.title "Inhoudcoderingsfout">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li>
-</ul>
-">
+<!ENTITY contentEncodingError.longDesc "<p>De pagina die u wilt bekijken kan niet worden weergegeven, omdat er ongeldige of niet ondersteunde versie van compressie gebruikt wordt</p><ul><li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li></ul>">
 
 <!ENTITY unsafeContentType.title "Onveilig bestandstype">
 <!ENTITY unsafeContentType.longDesc "
@@ -76,77 +44,38 @@
 </ul>
 ">
 
-<!ENTITY netReset.title "De verbinding werd geherinitialiseerd">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "Verbinding onderbroken">
+<!ENTITY netReset.longDesc "<p>De netwerkverbinding is onderbroken tijdens het onderhandelen van een verbinding. Probeer het opnieuw.</p>">
 
-<!ENTITY netTimeout.title "De wachttijd voor de verbinding is verstreken">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "Netwerk time-out">
+<!ENTITY netTimeout.longDesc "<p>De aangevraagde site reageerde niet op een verbindingsverzoek en de browser is gestopt met het wachten op een antwoord.</p><ul><li>Misschien  is er veel vraag op de server of is deze tijdelijk uitgevallen. Probeer het later nog eens.</li><li>Kunt u geen andere sites doorzoeken? Controleer de netwerkverbinding van de computer.</li><li>Wordt uw computer of netwerk beveiligd door een firewall of proxy? Onjuiste instellingen kunnen het webbrowsen verstoren.</li><li>Nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor hulp.</li></ul>">
 
-<!ENTITY protocolNotFound.title "Het adres werd niet begrepen">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>Misschien moet u andere software installeren om dit adres te openen.</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "Onbekend protocol">
+<!ENTITY unknownProtocolFound.longDesc "<p>Het adres specificeert een protocol (bijv. <q>wxyz://</q>) dat de browser niet herkent, waardoor de browser niet goed kan worden verbonden met de site.</p><ul><li>Probeert u toegang te krijgen tot multimedia of andere niet-tekstdiensten? Controleer de site voor extra vereisten.</li><li>Sommige protocols hebben software of plugins van derden nodig zodat de browser ze kan herkennen..</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "De proxyserver weigert verbindingen">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>Controleer of uw proxyinstellingen juist zijn.</li>
-  <li>Neem contact op met uw netwerkbeheerder om te controleren of de proxyserver
-    werkt.</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.title "Proxy server weigerde verbinding">
+<!ENTITY proxyConnectFailure.longDesc "<p>De browser is geconfigureerd om een ​​proxyserver te gebruiken, maar de proxy weigerde een verbinding</p><ul><li>Is de proxy configuratie van de browser correct? Controleer de instellingen en probeer het opnieuw.</li><li>Staat de proxyservice verbindingen van dit netwerk toe?</li><li>Nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor hulp.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Kan de proxyserver niet vinden">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>Controleer of uw proxyinstellingen juist zijn.</li>
-  <li>Verzeker u ervan dat uw computer op een werkend netwerk is aangesloten.</li>
-  <li>Verzeker u ervan dat &brandShortName; toegang heeft tot het web als uw 
-    computer of netwerk is beveiligd door een firewall of proxyserver.</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.title "Proxy server niet gevonden">
+<!ENTITY proxyResolveFailure.longDesc "<p>De browser is geconfigureerd om een ​​proxyserver te gebruiken, maar de proxy kan niet gevonden worden.</p><ul><li>Is de proxy configuratie van de browser correct? Controleer de instellingen en probeer het opnieuw.</li><li>Is de computer verbonden met een actief netwerk?</li><li>Nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor hulp.</li></ul>">
 
 <!ENTITY redirectLoop.title "De pagina verwijst niet op een juiste manier door">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>Dit probleem kan soms worden veroorzaakt door het uitschakelen of weigeren 
-    van cookies.</li>
-</ul>
-">
+<!ENTITY redirectLoop.longDesc "<p>De browser is gestopt met het proberen om het gevraagde item te halen. De site wijst de aanvraag door op een manier die nooit zal eindigen</p><ul><li>Heeft u cookies uitgeschakeld of geblokkeerd die nodig zijn voor deze site?</li><li><em>NOTE</em>: Indien accepteren van cookies van de site het probleem niet oplost, is het waarschijnlijk een serverconfiguratie en niet uw computer.</li></ul>">
 
-<!ENTITY unknownSocketType.title "Onverwacht antwoord van server">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>Verzeker u ervan dat de persoonlijke beveiligingsbeheerder is geïnstalleerd op
-    uw systeem.</li>
-  <li>Dit kan het gevolg zijn van een niet-standaard configuratie van de server.</li>
-</ul>
-">
+<!ENTITY unknownSocketType.title "Onjuiste reactie">
+<!ENTITY unknownSocketType.longDesc "<p>De site heeft op een onverwachte manier op het netwerkverzoek gereageerd en de browser kan niet doorgaan.</p>">
 
 <!ENTITY nssFailure2.title "Beveiligde verbinding mislukt">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>De pagina die u wilt bekijken kan niet worden weergegeven, omdat de echtheid van de ontvangen gegevens niet kon worden geverifieerd.</li>
-  <li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem. U kunt ook de opdracht in het helpmenu gebruiken om deze defecte website te rapporteren.</li>
-</ul>
-">
+<!ENTITY nssFailure2.longDesc2 "<p>De pagina die u probeert te bekijken kan niet worden weergegeven omdat de authenticiteit van de ontvangen gegevens niet kan worden gecontroleerd.</p><ul><li>Neem contact op met de eigenaren van de website om ze te informeren over dit probleem.</li></ul>">
 
 <!ENTITY nssBadCert.title "Beveiligde verbinding mislukt">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>Dit kan een probleem met de serverconfiguratie zijn, of iemand probeert deze
-    server na te bootsen.</li>
-  <li>Als u in het verleden wel met succes verbinding hebt gemaakt met deze server, dan
-    is de fout wellicht tijdelijk en kunt u het later nogmaals proberen.</li>
-</ul>
+<!ENTITY nssBadCert.longDesc2 "<ul> <li>Dit kan een probleem met de serverconfiguratie zijn, of iemand probeert deze server na te bootsen.</li> <li>Als u in het verleden wel met succes verbinding hebt gemaakt met deze server, dan is de fout wellicht tijdelijk en kunt u het later nogmaals proberen.</li> </ul>
 ">
 
 <!ENTITY malwareBlocked.title "Vermoedelijke aanvalsite!">
 <!ENTITY malwareBlocked.longDesc "
-<p>Aanvalsites proberen programma’s te installeren die privégegevens stelen, uw computer gebruiken om anderen aan te vallen, of uw systeem beschadigen.</p>
-<p>Website-eigenaars die menen dat hun website ten onrechte is gerapporteerd als een aanvalsite kunnen om een <a href='http://www.stopbadware.org/home/reviewinfo' >herbeoordeling vragen</a>.</p>
+<p>Aanvalwebsites proberen programma's te installeren die prive-informatie stelen, uw computer gebruiken om anderen aan te vallen, of schade aan uw systeem te berokkenen.</p>
+<p>Website eigenaars die menen dat hun site is gerapporteerd als een aanvalsite kunnen bij <a href='https://www.stopbadware.org/request-review' > een review aanvragen</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Vermoedelijke webvervalsing!">
@@ -155,25 +84,13 @@
 <p>Dit soort webvervalsingen wordt gebruikt in e-mailscams die bekend staan als phishingaanvallen, waarbij frauduleuze webpagina’s en e-mails worden gebruikt om bronnen die u misschien vertrouwt na te bootsen.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Geblokkeerd door inhoudbeveiligingsbeleid">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; heeft voorkomen dat de pagina op deze manier werd geladen, omdat de pagina een inhoudbeveiligingsbeleid heeft dat dit niet toestaat.</p>">
-
-<!ENTITY xssBlockMode.title "Geblokkeerd door XSS filter">
-<!ENTITY xssBlockMode.longDesc "
-<ul>
-  <li>&brandShortName; heeft verdere acties op deze pagina geblokkeerd, omdat
-deze geïnjecteerde JavaScript code bevat.</li>
-  <li>Het laden van deze pagina is gestopt als gevolg van ofwel het expliciete
-verzoek van de website om deze pagina te blokkeren in het geval van
-XSS aanvallen, of omdat &brandShortName; geconfigureerd is om pagina's
-in dit geval te blokkeren.</li>
-</ul>
-">
+<!ENTITY cspBlocked.title "Geblokkeerd door de 'Content Security Policy'">
+<!ENTITY cspBlocked.longDesc "<p>&brandShortName; heeft voorkomen dat deze pagina op deze manier geladen werd, omdat de pagina een content security beleid heeft dat het niet toestaat.</p>">
 
 <!ENTITY corruptedContentError.title "Beschadigde-inhoudsfout">
 <!ENTITY corruptedContentError.longDesc "<p>De pagina die u wilt bekijken kan niet worden weergegeven, omdat er een fout in de gegevensoverdracht is gedetecteerd.</p><ul><li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li></ul>">
 
-<!ENTITY remoteXUL.title "Remote XUL">
+<!ENTITY remoteXUL.title "Externe XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Neem contact op met de website-eigenaars om ze te informeren over dit probleem.</li></ul></p>">
 
 <!-- Include app-specific error messages - do not change this in localization!

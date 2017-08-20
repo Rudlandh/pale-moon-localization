@@ -17,5 +17,17 @@
 <!ENTITY switchToNewTabs.label        "Als ik een koppeling open in een nieuw tabblad, er meteen naartoe gaan">
 <!ENTITY switchToNewTabs.accesskey    "a">
 
-<!ENTITY showTabsInTaskbar.label          "Tabbladvoorbeelden in de Windows-taakbalk tonen">
+<!ENTITY showTabsInTaskbar.label          "Tabbladvoorbeelden in de Windows-taakbalk weergeven">
 <!ENTITY showTabsInTaskbar.accesskey      "k">
+
+<!ENTITY showTabBar.label                   "Tabbalk altijd weergeven">
+<!ENTITY showTabBar.accesskey               "b">
+
+<!ENTITY insertRelatedAfterCurrent.label    "Aanverwante tabbladen invoegen naast het huidige tabblad">
+<!ENTITY contextLoadInBackground.label      "Bij uitvoeren van een context-zoekopdracht direct naar het nieuwe tabblad wisselen">
+<!ENTITY closeWindowWithLastTab.label       "Venster sluiten wanneer het laatste tabblad is gesloten">
+
+<!ENTITY newtabPage.label                   "Bij het openen van een nieuw tabblad, weergave van:">
+<!ENTITY newtabPage.blank.label             "Een blanco pagina">
+<!ENTITY newtabPage.home.label              "De Pale Moon startpagina">
+<!ENTITY newtabPage.quickdial.label         "De Quickdial pagina">

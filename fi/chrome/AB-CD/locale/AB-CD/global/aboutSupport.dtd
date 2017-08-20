@@ -11,18 +11,37 @@
   &brandShortName;ista, käy katsomassa löytyykö hakemaasi vastausta <a id='supportLink'>tukisivustoltamme</a>.
 ">
 
+<!ENTITY aboutSupport.crashes.title "Kaatumisraportit">
+<!-- LOCALIZATION NOTE (aboutSupport.crashes.id):
+This is likely the same like id.heading in crashes.dtd. -->
+<!ENTITY aboutSupport.crashes.id "Ilmoitustunnus">
+<!ENTITY aboutSupport.crashes.sendDate "Lähetetty">
+<!ENTITY aboutSupport.crashes.allReports "Kaikki kaatumisraportit">
+<!ENTITY aboutSupport.crashes.noConfig "Tätä sovellusta ei ole asetettu näyttämään kaatumisraportteja.">
+
 <!ENTITY aboutSupport.extensionsTitle "Laajennukset">
 <!ENTITY aboutSupport.extensionName "Nimi">
 <!ENTITY aboutSupport.extensionEnabled "Käytössä">
 <!ENTITY aboutSupport.extensionVersion "Versio">
 <!ENTITY aboutSupport.extensionId "ID">
 
+<!ENTITY aboutSupport.experimentsTitle "Kokeelliset ominaisuudet">
+<!ENTITY aboutSupport.experimentName "Nimi">
+<!ENTITY aboutSupport.experimentId "Tunnus">
+<!ENTITY aboutSupport.experimentDescription "Kuvaus">
+<!ENTITY aboutSupport.experimentActive "Aktiivinen">
+<!ENTITY aboutSupport.experimentEndDate "Päättymispäivä">
+<!ENTITY aboutSupport.experimentHomepage "Kotisivu">
+
+
 <!ENTITY aboutSupport.appBasicsTitle "Ohjelman perustiedot">
 <!ENTITY aboutSupport.appBasicsName "Nimi">
 <!ENTITY aboutSupport.appBasicsVersion "Versio">
+<!ENTITY aboutSupport.appBasicsBuildID "Build ID">
 
-<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
+<!-- LOCALIZATION NOTE (aboutSupport.appBasicsUpdateChannel, aboutSupport.appBasicsUpdateHistory, aboutSupport.appBasicsShowUpdateHistory):
 "Update" is a noun here, not a verb. -->
+<!ENTITY aboutSupport.appBasicsUpdateChannel "Update Channel">
 <!ENTITY aboutSupport.appBasicsUpdateHistory "Päivityshistoria">
 <!ENTITY aboutSupport.appBasicsShowUpdateHistory "Näytä päivityshistoria">
 
@@ -35,8 +54,12 @@ Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsEnabledPlugins "Käytössä olevat liitännäiset">
 <!ENTITY aboutSupport.appBasicsBuildConfig "Koostamisasetukset">
 <!ENTITY aboutSupport.appBasicsUserAgent "Selaintunniste">
-<!ENTITY aboutSupport.appBasicsCrashIDs "Kaatumisilmoitukset">
+<!ENTITY aboutSupport.appBasicsOS "OS">
 <!ENTITY aboutSupport.appBasicsMemoryUse "Muistin käyttö">
+
+<!ENTITY aboutSupport.appBasicsMultiProcessSupport "Multiprocess Windows">
+
+<!ENTITY aboutSupport.appBasicsSafeMode "Safe Mode">
 
 <!ENTITY aboutSupport.showDir.label "Avaa kansio">
 <!-- LOCALIZATION NOTE (aboutSupport.showMac.label): This is the Mac-specific
@@ -55,7 +78,15 @@ variant of aboutSupport.showDir.label. -->
 <!ENTITY aboutSupport.userJSTitle "user.js-asetukset">
 <!ENTITY aboutSupport.userJSDescription "Profiilisi sisältää <a id='prefs-user-js-link'>user.js-tiedoston</a>, joka sisältää muiden kuin &brandShortName;in määrittelemät asetukset.">
 
+<!ENTITY aboutSupport.lockedKeyPrefsTitle "Important Locked Preferences">
+<!ENTITY aboutSupport.lockedPrefsName "Name">
+<!ENTITY aboutSupport.lockedPrefsValue "Value">
+
 <!ENTITY aboutSupport.graphicsTitle "Grafiikka">
+
+<!ENTITY aboutSupport.placeDatabaseTitle "Places Database">
+<!ENTITY aboutSupport.placeDatabaseIntegrity "Integrity">
+<!ENTITY aboutSupport.placeDatabaseVerifyIntegrity "Verify Integrity">
 
 <!ENTITY aboutSupport.jsTitle "JavaScript">
 <!ENTITY aboutSupport.jsIncrementalGC "Jatkuva roskienkeräys">
@@ -71,3 +102,11 @@ variant of aboutSupport.showDir.label. -->
 
 <!ENTITY aboutSupport.copyTextToClipboard.label "Kopioi teksti leikepöydälle">
 <!ENTITY aboutSupport.copyRawDataToClipboard.label "Kopioi muokkaamaton data leikepöydälle">
+
+<!ENTITY aboutSupport.sandboxTitle "Sandbox">
+
+<!ENTITY aboutSupport.safeModeTitle "Try Safe Mode">
+<!ENTITY aboutSupport.restartInSafeMode.label "Restart with Add-ons Disabled…">
+
+<!ENTITY aboutSupport.restartTitle "Try Restart">
+<!ENTITY aboutSupport.restartNormal.label "Restart normally…">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY  engineManager.title       "Zoekmachinelijst beheren">
-<!ENTITY  engineManager.style       "min-width: 35em;">
+<!ENTITY  engineManager.style       "min-width: 40em;">
 <!ENTITY  engineManager.intro       "U hebt de volgende zoekmachines geïnstalleerd:">
 
 <!ENTITY  columnLabel.name          "Naam">
@@ -22,7 +22,7 @@
 <!ENTITY  addEngine.label           "Meer zoekmachines verkrijgen…">
 <!ENTITY  addEngine.accesskey       "M">
 
-<!ENTITY  enableSuggest.label       "Zoeksuggesties tonen">
+<!ENTITY  enableSuggest.label       "Zoeksuggesties weergeven">
 <!ENTITY  enableSuggest.accesskey   "Z">
 
 <!ENTITY  restoreDefaults.label     "Standaardwaarden herstellen">

@@ -15,7 +15,11 @@
 
 <!ENTITY header.defaults                 "Standardrättigheter för alla webbplatser">
 
+<!ENTITY permissions.sitesReload         "Uppdatera sidlistan">
+
 <!ENTITY permissions.forgetSite          "Ta bort all historik för den här webbplatsen">
+
+<!ENTITY permission.default              "Använd standard">
 
 <!ENTITY permission.alwaysAsk            "Fråga alltid">
 <!ENTITY permission.allow                "Tillåt">
@@ -26,10 +30,16 @@
 <!ENTITY password.label                  "Spara lösenord">
 <!ENTITY password.manage                 "Hantera lösenord…">
 
+<!ENTITY image.label                     "Ladda bilder">
+
 <!ENTITY cookie.label                    "Sätta kakor">
 <!ENTITY cookie.remove                   "Ta bort kakor">
 <!ENTITY cookie.manage                   "Hantera kakor…">
 <!ENTITY cookie.removeAll                "Ta bort alla kakor">
+
+<!ENTITY desktop-notification.label      "Visa notifieringar">
+
+<!ENTITY install.label                   "Installera tillägg eller teman">
 
 <!ENTITY geo.label                       "Uppge position">
 
@@ -42,3 +52,5 @@
 <!ENTITY popup.label                     "Öppna popup-fönster">
 
 <!ENTITY fullscreen.label                "Helskärm">
+
+<!ENTITY pointerLock.label               "Dölj muspekaren">

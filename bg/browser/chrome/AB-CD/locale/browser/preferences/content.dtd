@@ -1,0 +1,43 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  blockPopups.label           "Блокиране на изскачащите прозорци">
+<!ENTITY  blockPopups.accesskey       "Б">
+<!ENTITY  popupExceptions.label       "Изключения…">
+<!ENTITY  popupExceptions.accesskey   "И">
+
+<!ENTITY  loadImages.label            "Зареждане на изображения:">
+<!ENTITY  loadImages.always           "Автоматично">
+<!ENTITY  loadImages.never            "Никога">
+<!ENTITY  loadImages.no3rdparty       "Само от основния сървър">
+
+<!ENTITY  fontsAndColors.label        "Шрифтове и цветове">
+
+<!ENTITY  defaultFont.label           "Шрифт по подразбиране:">
+<!ENTITY  defaultFont.accesskey       "Ш">
+<!ENTITY  defaultSize.label           "Размер:">
+<!ENTITY  defaultSize.accesskey       "Р">
+
+<!ENTITY  advancedFonts.label         "Допълнително…">
+<!ENTITY  advancedFonts.accesskey     "Д">
+
+<!ENTITY  colors.label                "Цветове…">
+<!ENTITY  colors.accesskey            "Ц">
+
+<!ENTITY  languages.label             "Езици">
+<!ENTITY  chooseLanguage.label        "Изберете вашия предпочитан език за страниците">
+<!ENTITY  chooseButton.label          "Избери…">
+<!ENTITY  chooseButton.accesskey      "е">
+
+<!ENTITY  video.label                 "Видео">
+<!ENTITY  videoMSE.label              "Включи Media Source Extensions (MSE)">
+<!ENTITY  videoMSE.accesskey          "M">
+<!ENTITY  videoMSENFR.label           "Използвай MSE асинхронно">
+<!ENTITY  videoMSENFR.accesskey       "з">
+<!ENTITY  videoMSEMP4.label           "Включи MSE за MP4 видео">
+<!ENTITY  videoMSEMP4.accesskey       "4">
+<!ENTITY  videoMSEWebM.label          "Включи MSE за WebM видео">
+<!ENTITY  videoMSEWebM.accesskey      "W">
+
+

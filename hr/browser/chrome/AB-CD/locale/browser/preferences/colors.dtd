@@ -6,12 +6,16 @@
 <!ENTITY  window.width                    "38em">
 <!ENTITY  window.macWidth                 "41em">
 
-<!ENTITY  allowPagesToUse.label           "Dopusti stranicama da odaberu svoje vlastite boje umjesto mojeg gornjeg odabira">
-<!ENTITY  allowPagesToUse.accesskey       "A">
+<!ENTITY  overridePageColors.label        "Override the colors specified by the page with my selections above:">
+<!ENTITY  overridePageColors.accesskey    "O">
+
+<!ENTITY  overridePageColors.always.label "Uvijek">
+<!ENTITY  overridePageColors.auto.label   "Samo sa temama jakog kontrasta">
+<!ENTITY  overridePageColors.never.label  "Nikada">
 
 <!ENTITY  color                           "Tekst i pozadina">
 <!ENTITY  textColor.label                 "Tekst:">
-<!ENTITY  textColor.accesskey             "t">
+<!ENTITY  textColor.accesskey             "T">
 <!ENTITY  backgroundColor.label           "Pozadina:">
 <!ENTITY  backgroundColor.accesskey       "z">
 <!ENTITY  useSystemColors.label           "Koristi boje sustava">

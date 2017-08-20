@@ -8,8 +8,6 @@
 
 <!ENTITY securityOverride.linkText "Eller så kan du lägga till ett undantag…">
 <!ENTITY securityOverride.warningContent "
-<p>Du bör endast lägga till ett undantag om du använder en internetanslutning som du har ett fullständigt förtroende för, eller om du är van vid att se en varning för den här servern.</p>
-
-<button id='getMeOutOfHereButton'>&securityOverride.getMeOutOfHereButton;</button>
-<button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
+<p>Du bör inte lägga till ett undantag om du använder en internet-anslutning som du inte litar på helt eller om du inte är van att se en varning för den här servern.</p>
+<p>Vill du fortfarande lägga till ett undantag för den här webbplatsen, kan du göra det i inställningarna för avancerad kryptering.</p>
 ">

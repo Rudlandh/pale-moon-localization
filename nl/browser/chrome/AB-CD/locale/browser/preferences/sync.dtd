@@ -3,29 +3,29 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- The page shown when not logged in... -->
-<!ENTITY setupButton.label          "&syncBrand.fullName.label; instellen">
-<!ENTITY setupButton.accesskey      "s">
-<!ENTITY weaveDesc.label            "Met &syncBrand.fullName.label; kunt u uw geschiedenis, bladwijzers, wachtwoorden en open tabbladen vanaf al uw apparaten benaderen.">
+<!ENTITY setupButton.label          "&syncBrand.shortName.label; configureren">
+<!ENTITY setupButton.accesskey      "S">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; hiermee kunt u toegang krijgen tot uw geschiedenis, bladwijzers, wachtwoorden en open tabbladen van al uw apparaten.">
 
 <!-- The page shown when logged in... -->
 
 <!-- Login error feedback -->
 <!ENTITY updatePass.label             "Bijwerken">
-<!ENTITY resetPass.label              "Herinitialiseren">
+<!ENTITY resetPass.label              "Opnieuw instellen">
 
 <!-- Manage Account -->
 <!ENTITY manageAccount.label          "Account beheren">
-<!ENTITY manageAccount.accesskey      "A">
-<!ENTITY viewQuota.label              "Quota bekijken">
+<!ENTITY manageAccount.accesskey      "n">
+<!ENTITY viewQuota.label              "Bekijk quota">
 <!ENTITY changePassword2.label        "Wachtwoord wijzigen…">
 <!ENTITY myRecoveryKey.label          "Mijn herstelsleutel">
-<!ENTITY resetSync2.label             "Sync herinitialiseren…">
+<!ENTITY resetSync2.label             "Opnieuw synchroniseren…">
 
 <!ENTITY pairDevice.label             "Een apparaat koppelen">
 
-<!ENTITY syncMy.label               "Synchroniseren:">
+<!ENTITY syncMy.label               "Synchroniseren">
 <!ENTITY engine.bookmarks.label     "Bladwijzers">
-<!ENTITY engine.bookmarks.accesskey "B">
+<!ENTITY engine.bookmarks.accesskey "b">
 <!ENTITY engine.tabs.label          "Tabbladen">
 <!ENTITY engine.tabs.accesskey      "T">
 <!ENTITY engine.history.label       "Geschiedenis">
@@ -39,9 +39,9 @@
 
 <!-- Device Settings -->
 <!ENTITY syncDeviceName.label       "Apparaatnaam:">
-<!ENTITY syncDeviceName.accesskey   "n">
+<!ENTITY syncDeviceName.accesskey   "a">
 <!ENTITY unlinkDevice.label           "Dit apparaat ontkoppelen">
 
 <!-- Footer stuff -->
-<!ENTITY prefs.tosLink.label        "Servicevoorwaarden (en)">
-<!ENTITY prefs.ppLink.label         "Privacybeleid (en)">
+<!ENTITY prefs.tosLink.label        "Gebruiksvoorwaarden">
+<!ENTITY prefs.ppLink.label         "Privacybeleid">

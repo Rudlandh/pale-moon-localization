@@ -34,3 +34,11 @@
 <!ENTITY chooseFolderMac.accesskey    "æ">
 <!ENTITY alwaysAsk.label "Spørg mig altid hvor filer skal gemmes">
 <!ENTITY alwaysAsk.accesskey "a">
+
+<!ENTITY toolkit.classic.download.window.label       "Brug klassisk download vindue">
+
+<!ENTITY zoneInfo.label       "Gemte filer har zoneoplysninger:">
+<!ENTITY zoneInfo.never       "Aldrig">
+<!ENTITY zoneInfo.always      "Altid">
+<!ENTITY zoneInfo.system      "Brug systemindstilling">
+

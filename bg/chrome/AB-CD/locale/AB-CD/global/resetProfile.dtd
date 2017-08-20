@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+
+<!ENTITY refreshProfile.dialog.title         "Освежаване на &brandShortName;">
+<!ENTITY refreshProfile.dialog.description1  "Започнете начисто, без проблеми и с възстановена производителност.">
+<!ENTITY refreshProfile.dialog.description2  "Това ще:">
+<!ENTITY refreshProfile.dialog.items.label1  "Премахне вашите добавки и персонализации">
+<!ENTITY refreshProfile.dialog.items.label2  "Възстанови настройките на браузъра до началните стойности">
+<!ENTITY refreshProfile.dialog.button.label  "Освежаване на &brandShortName;">
+
+<!ENTITY refreshProfile.title                "Регулирайте &brandShortName;">
+<!ENTITY refreshProfile.button.label         "Освежаване на &brandShortName;…">
+
+<!ENTITY refreshProfile.cleaning.description "Почти е готово…">

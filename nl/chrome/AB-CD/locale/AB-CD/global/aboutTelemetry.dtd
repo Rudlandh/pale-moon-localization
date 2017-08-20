@@ -12,6 +12,10 @@
   Telemetry is <span>uitgeschakeld</span>.
 ">
 
+<!ENTITY aboutTelemetry.generalDataSection "
+  Algemene gegevens
+">
+
 <!ENTITY aboutTelemetry.slowSqlSection "
   Trage SQL-statements
 ">
@@ -20,16 +24,28 @@
   Browservastlopers
 ">
 
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+Thread is blijven steken
+">
+
 <!ENTITY aboutTelemetry.histogramsSection "
   Histogrammen
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+Versleutelde histogrammen
 ">
 
 <!ENTITY aboutTelemetry.simpleMeasurementsSection "
   Eenvoudige metingen
 ">
 
+<!ENTITY aboutTelemetry.addonDetailsSection "
+Add-on details
+">
+
 <!ENTITY aboutTelemetry.lateWritesSection "
-  Late Writes
+Nakomende schrijfacties
 ">
 
 <!ENTITY aboutTelemetry.systemInfoSection "
@@ -40,12 +56,8 @@
   Histogrammen verzameld door add-ons
 ">
 
-<!ENTITY aboutTelemetry.toggleOn "
-  Klik om sectie uit te vouwen
-">
-
-<!ENTITY aboutTelemetry.toggleOff "
-  Klik om sectie samen te vouwen
+<!ENTITY aboutTelemetry.toggle "
+Klik om de sectie om te schakelen
 ">
 
 <!ENTITY aboutTelemetry.emptySection "
@@ -61,5 +73,9 @@
 ">
 
 <!ENTITY aboutTelemetry.hideSymbols "
-  Onbewerkte gegevens van vastlopers tonen
+  Onbewerkte gegevens van vastlopers weergeven
+">
+
+<!ENTITY aboutTelemetry.filterText "
+Filter (strings of /regexp/)
 ">

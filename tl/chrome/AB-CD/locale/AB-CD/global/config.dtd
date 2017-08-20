@@ -1,0 +1,49 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY window.title "about:config">
+
+<!-- about:config warning page -->
+<!-- LOCALIZATION NOTE: aboutWarningTitle.label should be attention grabbing and playful, not a literal translation -->
+<!ENTITY aboutWarningTitle.label "May mga dragon dito!">
+<!ENTITY aboutWarningText.label "Ang pagbabago sa mga advanced na kagustuhan ay maaring magdulot ng (napaka) masamang epekto sa katatagan, kasiguruhan, at pagtakbo ng application na ito. Dapat ka lang magpatuloy kung sigurado ka sa iyong ginagawa.">
+<!ENTITY aboutWarningButton.label "Nangangako ako na magiging maingat!">
+<!ENTITY aboutWarningCheckbox.label "Ipakita ang babalang ito sa susunod">
+
+<!ENTITY searchPrefs.label "Maghanap:">
+<!ENTITY searchPrefs.accesskey "r">
+<!ENTITY focusSearch.key "r">
+
+<!-- Columns -->
+<!ENTITY prefColumn.label "Pangalan ng Kagustuhan">
+<!ENTITY lockColumn.label "Kalagayan">
+<!ENTITY typeColumn.label "Uri">
+<!ENTITY valueColumn.label "Laman">
+
+<!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Pindutin para ayusin"> 
+<!ENTITY columnChooser.tooltip "Pindutin para piliin ang mga haligi na ipapakita"> 
+
+<!-- Context Menu -->
+<!ENTITY copyPref.key "C">
+<!ENTITY copyPref.label "Kopyahin">
+<!ENTITY copyPref.accesskey "C">
+<!ENTITY copyName.label "Kopyahin ang Pangalan">
+<!ENTITY copyName.accesskey "N">
+<!ENTITY copyValue.label "Kopyahin ang Laman">
+<!ENTITY copyValue.accesskey "V">
+<!ENTITY modify.label "Baguhin">
+<!ENTITY modify.accesskey "M">
+<!ENTITY toggle.label "I-toggle">
+<!ENTITY toggle.accesskey "T">
+<!ENTITY reset.label "I-reset">
+<!ENTITY reset.accesskey "R">
+<!ENTITY new.label "Bago">
+<!ENTITY new.accesskey "w">
+<!ENTITY string.label "String">
+<!ENTITY string.accesskey "S">
+<!ENTITY integer.label "Integer">
+<!ENTITY integer.accesskey "I">
+<!ENTITY boolean.label "Boolean">
+<!ENTITY boolean.accesskey "B">

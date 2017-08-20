@@ -15,7 +15,11 @@
 
 <!ENTITY header.defaults                 "Standard-tilladelser for alle websteder">
 
+<!ENTITY permissions.sitesReload         "Reload list of sites">
+
 <!ENTITY permissions.forgetSite          "Glem tilladelser for dette websted">
+
+<!ENTITY permission.default              "Use Default">
 
 <!ENTITY permission.alwaysAsk            "Spørg altid">
 <!ENTITY permission.allow                "Tillad">
@@ -26,14 +30,20 @@
 <!ENTITY password.label                  "Gem adgangskoder">
 <!ENTITY password.manage                 "Administrer adgangskoder…">
 
+<!ENTITY image.label                     "Indlæs billeder">
+
 <!ENTITY cookie.label                    "Gem cookies">
 <!ENTITY cookie.remove                   "Fjern cookies">
 <!ENTITY cookie.manage                   "Administrer cookies…">
 <!ENTITY cookie.removeAll                "Fjern alle cookies">
 
+<!ENTITY desktop-notification.label      "Vis beskeder">
+
+<!ENTITY install.label                   "Installer udvidelser eller temaer">
+
 <!ENTITY geo.label                       "Del position">
 
-<!ENTITY plugins.label                   "Plugins">
+<!ENTITY plugins.label                   "Tilføjelser">
 
 <!-- LOCALIZATION NOTE (indexedDB.label): This is describing indexedDB storage
      using the same language used for the permIndexedDB string in browser/pageInfo.dtd -->
@@ -42,3 +52,5 @@
 <!ENTITY popup.label                     "Åbn pop op-vinduer">
 
 <!ENTITY fullscreen.label                "Fuldskærm">
+
+<!ENTITY pointerLock.label               "Skjul mus pointer">

@@ -14,7 +14,7 @@
 <!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
 
 <!ENTITY deniedPortAccess.title "Táto adresa je zakázaná">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>Zadaná adresa (URL) špecifikovala port (napr. <q>palemoon.org:25</q> je port 25 na palemoon.org), ktorý je normálne určený na <em>iné</em> služby ako prehliadanie webu. Prehliadač požiadavku kvôli vašej ochrane a bezpečnosti neakceptoval.</p>">
 
 <!ENTITY dnsNotFound.title "Server sa nenašiel">
 <!ENTITY dnsNotFound.longDesc "
@@ -83,8 +83,8 @@
 <!ENTITY netTimeout.title "Čas pripojenia vypršal">
 <!ENTITY netTimeout.longDesc "&sharedLongDesc;">
 
-<!ENTITY protocolNotFound.title "Adresa nebola rozpoznaná">
-<!ENTITY protocolNotFound.longDesc "
+<!ENTITY unknownProtocolFound.title "Adresa nebola rozpoznaná">
+<!ENTITY unknownProtocolFound.longDesc "
 <ul>
   <li>Na otvorenie tejto adresy možno bude potrebné nainštalovať ďalší softvér.</li>
 </ul>
@@ -123,10 +123,10 @@
 ">
 
 <!ENTITY nssFailure2.title "Zabezpečené pripojenie zlyhalo">
-<!ENTITY nssFailure2.longDesc "
+<!ENTITY nssFailure2.longDesc2 "
 <ul>
   <li>Stránku nemožno zobraziť, pretože pravosť prijímaných údajov sa nedá overiť.</li>
-  <li>Obráťte sa na vlastníkov stránky a informujte ich o tomto probléme. Môžete použiť aj príkaz v ponuke Pomocník a nahlásiť chybnú webovú stránku.</li>
+  <li>Obráťte sa na vlastníkov stránky a informujte ich o tomto probléme.</li>
 </ul>
 ">
 
@@ -149,7 +149,7 @@
 <!ENTITY malwareBlocked.title "Podozrivá škodlivá stránka!">
 <!ENTITY malwareBlocked.longDesc "
 <p>Škodlivé stránky sa pokúšajú nainštalovať programy, ktoré kradnú súkromné údaje, používajú počítač na útoky na iné počítače alebo poškodzujú systém.</p>
-<p>Vlastníci stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/home/reviewinfo' >požiadať o prehodnotenie</a>.</p>
+<p>Vlastníci stránok, ktorí si myslia, že ich stránky boli označené ako škodlivé neprávom, môžu <a href='http://www.stopbadware.org/request-review' >požiadať o prehodnotenie</a>.</p>
 ">
 
 <!ENTITY phishingBlocked.title "Podozrivá stránka!">
@@ -158,8 +158,8 @@
 <p>Tieto typy falošných stránok sa používajú na podvody, pri ktorých sa kombináciou webovej stránky a e-mailových správ napodobňujú dôveryhodné zdroje.</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "Blokované kvôli zásadám ochrany obsahu">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
+<!ENTITY cspBlocked.title "Blokované kvôli zásadám ochrany obsahu">
+<!ENTITY cspBlocked.longDesc "<p>Prehliadač &brandShortName; nepovolil načítanie stránky týmto spôsobom, pretože stránka obsahuje zásady ochrany obsahu, ktoré takéto načítanie neumožňujú.</p>">
 
 <!ENTITY xssBlockMode.title "Blocked by XSS Filter">
 <!ENTITY xssBlockMode.longDesc "
@@ -192,5 +192,20 @@ functionality specific to firefox. -->
 <button id='exceptionDialogButton'>&securityOverride.exceptionButtonLabel;</button>
 ">
 
+<!ENTITY errorReporting.title "Nahlásenie tejto chyby">
+<!ENTITY errorReporting.longDesc "Reporting the address and certificate information for <span id='hostname'></span> will help us identify and block malicious sites. Thanks for helping create a safer web!">
+<!ENTITY errorReporting.automatic "V budúcnosti hlásiť podobné chyby automaticky">
+<!ENTITY errorReporting.learnMore "Ďalšie informácie…">
+<!ENTITY errorReporting.sending "Správa sa odosiela">
+<!ENTITY errorReporting.sent "Správa bola odoslaná">
+<!ENTITY errorReporting.report "Nahlásiť">
+<!ENTITY errorReporting.tryAgain "Skúsiť znova">
+
 <!ENTITY remoteXUL.title "Vzdialené XUL">
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Kontaktujte správcu webovej stránky a informujte ho o tomto probléme.</li></ul></p>">
+
+<!ENTITY sslv3Used.title "Nie je možné sa pripojiť zabezpečene">
+<!-- LOCALIZATION NOTE (sslv3Used.longDesc) - Do not translate
+     "ssl_error_unsupported_version". -->
+<!ENTITY sslv3Used.longDesc "Rozšírené informácie: ssl_error_unsupported_version">
+<!ENTITY sslv3Used.learnMore "Ďalšie informácie…">

@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutNetworking.title                 "Ağ hakkında">
+<!ENTITY aboutNetworking.warning               "Bu çok deneyseldir. Yetişkin gözetimi olmadan kullanmayın.">
+<!ENTITY aboutNetworking.showNextTime          "Bu uyarıyı bir sonraki kez göster">
+<!ENTITY aboutNetworking.ok                    "Tamam">
+<!ENTITY aboutNetworking.http                  "Http">
+<!ENTITY aboutNetworking.sockets               "Yuvalar">
+<!ENTITY aboutNetworking.dns                   "DNS">
+<!ENTITY aboutNetworking.websockets            "WebSockets">
+<!ENTITY aboutNetworking.refresh               "Yenileme">
+<!ENTITY aboutNetworking.autoRefresh           "Her 3 saniyede bir yenile">
+<!ENTITY aboutNetworking.hostname              "Ana bilgisayar adı">
+<!ENTITY aboutNetworking.port                  "Bağlantı Noktası">
+<!ENTITY aboutNetworking.spdy                  "SPDY">
+<!ENTITY aboutNetworking.ssl                   "SSL">
+<!ENTITY aboutNetworking.active                "Etkin">
+<!ENTITY aboutNetworking.idle                  "Boşta">
+<!ENTITY aboutNetworking.host                  "Ana Makine">
+<!ENTITY aboutNetworking.tcp                   "TCP">
+<!ENTITY aboutNetworking.sent                  "Gönderildi">
+<!ENTITY aboutNetworking.received              "Alınan">
+<!ENTITY aboutNetworking.family                "Aile">
+<!ENTITY aboutNetworking.addresses             "Adresler">
+<!ENTITY aboutNetworking.expires               "Bitiş Süresi (saniye)">
+<!ENTITY aboutNetworking.messagesSent          "Mesajlar Gönderildi">
+<!ENTITY aboutNetworking.messagesReceived      "Mesajlar Alındı">
+<!ENTITY aboutNetworking.bytesSent             "Gönderilen Bayt">
+<!ENTITY aboutNetworking.bytesReceived         "Alınan bayt">

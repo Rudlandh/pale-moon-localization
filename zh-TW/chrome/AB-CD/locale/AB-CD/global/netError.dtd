@@ -2,68 +2,40 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY loadError.label "頁面載入發生問題">
+<!ENTITY loadError.label "頁面載入錯誤">
 <!ENTITY retry.label "重試">
 
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "連線失敗">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "<p>雖然網站看起來存在，但是瀏覽器無法建立連線。</p><ul><li>該網站也許暫時無法使用？請稍後再試。</li><li>其他網站你也無法瀏覽嗎？ 請檢查電腦的網路連線狀態。</li><li>你的電腦或網路是否啟用了防火牆或代理伺服器？設定不正確可能會造成網頁瀏覽受到影響。</li></ul>">
 
-<!ENTITY deniedPortAccess.title "此網址已被限制">
-<!ENTITY deniedPortAccess.longDesc "<p>The requested address specified a port (e.g. <q>mozilla.org:80</q> for port 80 on mozilla.org) normally used for purposes <em>other</em> than Web browsing. The browser has canceled the request for your protection and security.</p>">
+<!ENTITY deniedPortAccess.title "因安全考量禁止使用的 Port">
+<!ENTITY deniedPortAccess.longDesc "<p>網址所指定的 Port (如 <q>palemoon.org:25</q> 則表示使用 Port 25) 通常<em>不是</em>給正常網站所使用的。 為了安全考量，已取消對該網址的瀏覽。</p>">
 
-<!ENTITY dnsNotFound.title "找不到伺服器">
-<!ENTITY dnsNotFound.longDesc "<ul>
-   <li>請檢查網址是否有打錯？例如把
-   <strong>www</strong>.example.com 打成
-   <strong>ww</strong>.example.com</li>
-   <li>若無法載入任何網站，請檢查您的網路連線狀態。</li>
-   <li>若電腦或網路被防火牆或 Proxy 保護，請確定
-   &brandShortName; 被允許存取網路。</li> </ul>
-                    ">
+<!ENTITY dnsNotFound.title "找不到網址">
+<!ENTITY dnsNotFound.longDesc "<p>瀏覽器找不到網址指定的伺服器主機。</p><ul><li>網域名稱是否有打錯呢？ (如：把 <q><strong>www</strong>.mozilla.org</q> 打成 <q><strong>ww</strong>.mozilla.org</q>) </li><li>確定此網域存在嗎？或許它的註冊期限過期了。</li><li>可以瀏覽其它網站嗎？若不行，請檢查您的網路連線狀態與 DNS 網域名稱伺服器設定。</li><li>電腦有開防火牆或 Proxy？請確定這些設定是否正確。</li></ul>">
 
 <!ENTITY fileNotFound.title "找不到檔案">
-<!ENTITY fileNotFound.longDesc "
-<ul>
-  <li>請檢查檔名是否有大小寫錯誤、拼錯字。</li>
-  <li>請檢查檔案是否已被移動、改名或刪除。</li>
-</ul>
-">
+<!ENTITY fileNotFound.longDesc "<ul><li>或許此項目已被改名、刪除或移動了？</li><li>是否有拼錯字、大小寫錯誤？</li><li>您有存取該項目的權限嗎？</li></ul>">
 
-<!ENTITY generic.title "噢！">
-<!ENTITY generic.longDesc "
-<p>&brandShortName; 因為某些原因無法載入此網頁。</p>
-">
+<!ENTITY generic.title "無法完成要求">
+<!ENTITY generic.longDesc "<p>沒有關於此問題或錯誤的詳細解說資訊。</p>">
 
 <!ENTITY malformedURI.title "不正確的網址">
-<!ENTITY malformedURI.longDesc "<ul>
-   <li>網址通常長的像
-      <strong>http://www.example.com/</strong>。</li>
-   <li>請確定您用的是斜線 (例:
-      <strong>/</strong>)。</li>
-</ul>
-                ">
+<!ENTITY malformedURI.longDesc "<p>網址不正確。請檢查網址是否有誤後再重試。</p>">
 
 <!ENTITY netInterrupt.title "資料傳輸中斷">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "<p>瀏覽器連線成功，但連線在傳輸時被中斷了，請稍候再試。</p><ul><li>無法瀏覽其它網站？請檢查網路連線。</li><li>仍有問題？請洽詢您的網路管理員或網路提供者(ISP)。</li></ul>">
 
 <!ENTITY notCached.title "文件已過期">
-<!ENTITY notCached.longDesc "<p>您所請求的文件已不存在於 &brandShortName; 的快取當中。</p><ul><li>為了您的安全，&brandShortName; 將不會自動重新請求敏感文件。</li><li>請點下重試以重新向網站請求取得文件。</li></ul>">
+<!ENTITY notCached.longDesc "<p>您所請求的文件已不存在於瀏覽器的快取當中。</p><ul><li>為了您的安全，瀏覽器將不會自動重新請求敏感文件。</li><li>請點下重試以重新向網站請求取得文件。</li></ul>">
 
 <!ENTITY netOffline.title "離線模式">
-<!ENTITY netOffline.longDesc2 "
-<ul>
-  <li>請按下「重試」以切換到連線模式並重新載入頁面。</li>
-</ul>
-">
+<!ENTITY netOffline.longDesc2 "<p>瀏覽器正以離線模式執行，無法連線到指定位置。</p><ul><li>目前的網路連線正常嗎？</li><li>請按下「重試」以切換到連線模式並重新載入頁面。</li></ul>">
 
 <!ENTITY contentEncodingError.title "內容編碼錯誤">
-<!ENTITY contentEncodingError.longDesc "
-<ul>
-  <li>請向網站擁有者回報此問題。</li>
-</ul>
-">
+<!ENTITY contentEncodingError.longDesc "<p>您嘗試檢視的頁面無法顯示，因為其中使用了無效或不支援的壓縮類型。</p><ul><li>請向網站擁有者回報此問題。</li></ul>">
 
 <!ENTITY unsafeContentType.title "不安全的檔案格式">
 <!ENTITY unsafeContentType.longDesc "
@@ -72,70 +44,41 @@
 </ul>
 ">
 
-<!ENTITY netReset.title "連線被重設">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.title "連線中斷">
+<!ENTITY netReset.longDesc "<p>網路連線被中斷，可能是中間的網路有問題。請稍候再試。</p>">
 
-<!ENTITY netTimeout.title "連線已逾時">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.title "網路連線逾時">
+<!ENTITY netTimeout.longDesc "<p>指定的網站一直沒有回應，瀏覽器已停止等待。</p><ul><li>該網站是否可能暫時流量過高？ 請稍候再試。</li><li>可以瀏覽其它網站嗎？若不行，請檢查網路連線。</li><li>電腦是否有開防火牆或 Proxy？ 請確定這些設定是否正確。</li><li>仍有其它問題？請洽詢您的網路管理員或網路提供者(ISP)。</li></ul>">
 
-<!ENTITY protocolNotFound.title "無法理解的網址">
-<!ENTITY protocolNotFound.longDesc "
-<ul>
-  <li>您需要安裝其他軟體才能開啟此網址。</li>
-</ul>
-">
+<!ENTITY unknownProtocolFound.title "未知的通訊協定">
+<!ENTITY unknownProtocolFound.longDesc "<p>指定的網址使用了瀏覽器無法辨識的通訊協定（如<q>wxyz://</q>），無法正確連線。</p><ul><li>您是要存取非文字的影音多媒體服務嗎？請檢查網站上是否有更多需求。</li><li>某些通訊協定需要另外安裝其它軟體或外掛程式才能使用。</li></ul>">
 
 <!ENTITY proxyConnectFailure.title "Proxy 伺服器拒絕連線">
-<!ENTITY proxyConnectFailure.longDesc "
-<ul>
-  <li>請檢查 Proxy 設定是否正確。</li>
-  <li>與您的網路管理員聯絡，確定 Proxy 伺服器正常運作。</li>
-</ul>
-">
+<!ENTITY proxyConnectFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy refused a connection.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Does the proxy service allow connections from this network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
 <!ENTITY proxyResolveFailure.title "找不到 Proxy 伺服器">
-<!ENTITY proxyResolveFailure.longDesc "
-<ul>
-  <li>請檢查 Proxy 設定是否正確。</li>
-  <li>請檢查您的網路連線狀態。</li>
-  <li>若電腦或網路被防火牆或 Proxy 保護，請確定
-    &brandShortName; 被允許存取網路。</li>
-</ul>
-">
+<!ENTITY proxyResolveFailure.longDesc "<p>The browser is configured to use a proxy server, but the proxy could not be found.</p><ul><li>Is the browser's proxy configuration correct? Check the settings and try again.</li><li>Is the computer connected to an active network?</li><li>Still having trouble? Consult your network administrator or Internet provider for assistance.</li></ul>">
 
-<!ENTITY redirectLoop.title "頁面重新導向不正確">
-<!ENTITY redirectLoop.longDesc "
-<ul>
-  <li>有時候停用或拒絕接受 Cookie 會造成此問題。</li>
-</ul>
-">
+<!ENTITY redirectLoop.title "重新轉向發生迴圈">
+<!ENTITY redirectLoop.longDesc "<p>The browser has stopped trying to retrieve the requested item. The site is redirecting the request in a way that will never complete.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
 
-<!ENTITY unknownSocketType.title "伺服器回應錯誤">
-<!ENTITY unknownSocketType.longDesc "
-<ul>
-  <li>請確定電腦已安裝個人安全管理員 (Personal Security Manager)。</li>
-  <li>可能是伺服器上的非標準設定所造成的。</li>
-</ul>
-">
+<!ENTITY unknownSocketType.title "錯誤的回應">
+<!ENTITY unknownSocketType.longDesc "<p>The site responded to the network request in an unexpected way and the browser cannot continue.</p>">
 
 <!ENTITY nssFailure2.title "安全連線失敗">
-<!ENTITY nssFailure2.longDesc "
-<ul>
-  <li>因為無法驗證已接收資料的真實性，無法顯示您嘗試檢視的頁面。</li>
-  <li>請向網站擁有者回報此問題，或是從「說明」功能表中回報這個網站的問題。</li>
-</ul>
-">
+<!ENTITY nssFailure2.longDesc2 "<p>The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.</p><ul><li>Please contact the website owners to inform them of this problem.</li></ul>">
 
 <!ENTITY nssBadCert.title "安全連線失敗">
-<!ENTITY nssBadCert.longDesc2 "
-<ul>
-  <li>這可能是伺服器上的組態設定造成的，或是有人嘗試假造該伺服器。</li>
-  <li>若您以前可以與該伺服器正常連線，那麼這個錯誤可能只是暫時的，您可以稍候再試試看。</li>
+<!ENTITY nssBadCert.longDesc2 "<ul>
+<li>This could be a problem with the server's configuration, or it could be someone trying to impersonate the server.</li>
+<li>If you have connected to this server successfully in the past, the error may be temporary, and you can try again later.</li>
 </ul>
 ">
 
 <!ENTITY malwareBlocked.title "可能是有害網站！">
-<!ENTITY malwareBlocked.longDesc "<p>有害網站會嘗試安裝能竊取隱私資訊、利用您的電腦攻擊他人或破壞作業系統等的惡意軟體到您的電腦上。</p> <p>如果您是網頁擁有者，發現您的網站被誤認為有害網站時可以 <a href='http://www.stopbadware.org/home/reviewinfo' >請求重新審核</a>。</p>">
+<!ENTITY malwareBlocked.longDesc "
+<p>有害網站會嘗試安裝能竊取隱私資訊、利用您的電腦攻擊他人或破壞作業系統等的惡意軟體到您的電腦上。</p> <p>如果您是網站擁有者，發現您的網站被誤認為有害網站時可以<a href='https://www.stopbadware.org/request-review' >請求重新審核</a>。</p>
+">
 
 <!ENTITY phishingBlocked.title "可能是偽造網站！">
 <!ENTITY phishingBlocked.longDesc "
@@ -143,19 +86,8 @@
 <p>這些類型的偽造網頁含有常見的詐騙攻擊特徵，可能是罪犯所製作用來模仿您信任的合法來源之詐騙網頁。</p>
 ">
 
-<!ENTITY cspFrameAncestorBlocked.title "已依內容安全政策封鎖">
-<!ENTITY cspFrameAncestorBlocked.longDesc "<p>&brandShortName; 阻止了這個頁面載入，因為這個頁面的內容安全政策不允許其以這種方式被載入。</p>">
-
-<!ENTITY xssBlockMode.title "Blocked by XSS Filter">
-<!ENTITY xssBlockMode.longDesc "
-<ul>
-  <li>&brandShortName; blocked further actions on this page, because it contains 
-    injected JavaScript code.</li>
-  <li>Loading of this page has been suspended because of either the explicit request
-    by the website to block this page in case of XSS attacks, or because &brandShortName;
-    has been configured to block pages in that situation.</li>
-</ul>
-">
+<!ENTITY cspBlocked.title "已依內容安全政策封鎖">
+<!ENTITY cspBlocked.longDesc "<p>瀏覽器阻止了這個頁面載入，因為這個頁面有個內容安全政策不允許其以這種方式載入。</p>">
 
 <!ENTITY corruptedContentError.title "內容毀損錯誤">
 <!ENTITY corruptedContentError.longDesc "<p>因為在資料傳輸過程當中偵測到錯誤，無法顯示您正要檢視的頁面。</p><ul><li>請通知網站管理者以讓他們知道這個問題。</li></ul>">

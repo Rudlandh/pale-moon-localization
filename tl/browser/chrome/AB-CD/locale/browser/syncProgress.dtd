@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY % brandDTD
+    SYSTEM "chrome://branding/locale/brand.dtd">
+    %brandDTD;
+
+<!-- These strings are used in the sync progress upload page -->
+<!ENTITY syncProgress.pageTitle    "Iyong Unang Sync">
+<!ENTITY syncProgress.textBlurb    "Ang iyong mga datos ay ine-encrypt at ina-upload na sa background. Maari mo nang isara itong tab at magpatuloy sa pag-gamit ng &brandShortName;.">
+<!ENTITY syncProgress.closeButton  "Isara">
+<!ENTITY syncProgress.logoAltText  "&brandShortName; logo">
+<!ENTITY syncProgress.diffText     "Kusa nang magsy-sync sa paligid ang &brandShortName;. Maari mong isara itong tab at magpatuloy sa pag-gamit ng &brandShortName;.">
+

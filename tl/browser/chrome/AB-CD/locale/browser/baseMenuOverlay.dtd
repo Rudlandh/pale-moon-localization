@@ -1,0 +1,42 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY minimizeWindow.key       "m">
+<!ENTITY minimizeWindow.label     "Paliitin">
+<!ENTITY bringAllToFront.label    "Dalhin Lahat sa Harap">
+<!ENTITY zoomWindow.label         "I-zoom">
+<!ENTITY windowMenu.label         "Window">
+
+<!ENTITY helpMenu.label           "Tulong"> 
+<!ENTITY helpMenu.accesskey       "G"> 
+<!-- LOCALIZATION NOTE some localizations of Windows (ex:french, german) use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label        "Tulong"> 
+<!ENTITY helpMenuWin.accesskey    "G">
+<!ENTITY aboutProduct.label       "Tungkol sa &brandShortName;">
+<!ENTITY aboutProduct.accesskey   "A">
+<!ENTITY productHelp.label        "Tulong sa &brandShortName;">
+<!ENTITY productHelp.accesskey    "G">
+<!ENTITY helpMac.commandkey       "?">
+<!ENTITY helpSafeMode.label       "Mag-restart ng Hindi pinapagana ang mga Add-on…">
+<!ENTITY helpSafeMode.accesskey   "R">
+
+<!ENTITY helpTroubleshootingInfo.label      "Impormasyon sa Paghahanap ng Problema">
+<!ENTITY helpTroubleshootingInfo.accesskey  "P">
+
+<!ENTITY helpFeedbackPage.label      "Magbigay Tugon…">
+<!ENTITY helpFeedbackPage.accesskey  "T">
+
+<!ENTITY preferencesCmdMac.label        "Mga Kagustuhan…">
+<!ENTITY preferencesCmdMac.commandkey   ",">
+
+<!ENTITY servicesMenuMac.label          "Mga Serbisyo">
+
+<!ENTITY hideThisAppCmdMac.label        "Itago ang &brandShortName;">
+<!ENTITY hideThisAppCmdMac.commandkey   "H">
+
+<!ENTITY hideOtherAppsCmdMac.label      "Itago ang Iba">
+<!ENTITY hideOtherAppsCmdMac.commandkey "H">
+
+<!ENTITY showAllAppsCmdMac.label        "Ipakita Lahat">

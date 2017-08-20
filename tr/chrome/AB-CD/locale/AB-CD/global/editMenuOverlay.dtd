@@ -5,31 +5,31 @@
 <!ENTITY editMenu.label            "Düzenle">
 <!ENTITY editMenu.accesskey        "e">
 <!ENTITY undoCmd.label             "Geri al">
-<!ENTITY undoCmd.key               "z">
-<!ENTITY undoCmd.accesskey         "r">
+<!ENTITY undoCmd.key               "Z">
+<!ENTITY undoCmd.accesskey         "u">
 <!ENTITY redoCmd.label             "Yinele">
 <!ENTITY redoCmd.key               "Y">
-<!ENTITY redoCmd.accesskey         "Y">
+<!ENTITY redoCmd.accesskey         "r">
 <!ENTITY cutCmd.label              "Kes">
 <!ENTITY cutCmd.key                "X">
-<!ENTITY cutCmd.accesskey          "K">
+<!ENTITY cutCmd.accesskey          "t">
 <!ENTITY copyCmd.label             "Kopyala">
 <!ENTITY copyCmd.key               "C">
-<!ENTITY copyCmd.accesskey         "K">
+<!ENTITY copyCmd.accesskey         "c">
 <!ENTITY pasteCmd.label            "Yapıştır">
 <!ENTITY pasteCmd.key              "V">
-<!ENTITY pasteCmd.accesskey        "Y">
+<!ENTITY pasteCmd.accesskey        "p">
 <!ENTITY deleteCmd.label           "Sil">
-<!ENTITY deleteCmd.accesskey       "S">
+<!ENTITY deleteCmd.accesskey       "d">
 <!ENTITY selectAllCmd.label        "Tümünü seç">
 <!ENTITY selectAllCmd.key          "A">
-<!ENTITY selectAllCmd.accesskey    "T">
+<!ENTITY selectAllCmd.accesskey    "a">
 <!ENTITY findCmd.label             "Bul">
 <!ENTITY findCmd.key               "F">
-<!ENTITY findCmd.accesskey         "B">
-<!ENTITY findAgainCmd.label        "Sonrakini bul">
+<!ENTITY findCmd.accesskey         "F">
+<!ENTITY findAgainCmd.label        "Yeniden Bul">
 <!ENTITY findAgainCmd.key          "G">
 <!ENTITY findAgainCmd.key2         "VK_F3">
-<!ENTITY findAgainCmd.accesskey    "o">
+<!ENTITY findAgainCmd.accesskey    "g">
 <!ENTITY findPreviousCmd.label     "Öncekini bul">
-<!ENTITY findPreviousCmd.accesskey "n">
+<!ENTITY findPreviousCmd.accesskey "v">

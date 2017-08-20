@@ -22,9 +22,9 @@
 <!ENTITY useSmoothScrolling.label        "Use smooth scrolling">
 <!ENTITY useSmoothScrolling.accesskey    "m">
 <!ENTITY allowHWAccel.label              "Use hardware acceleration when available">
-<!ENTITY allowHWAccel.accesskey          "v">
+<!ENTITY allowHWAccel.accesskey          "r">
 <!ENTITY checkSpelling.label             "Check my spelling as I type">
-<!ENTITY checkSpelling.accesskey         "k">
+<!ENTITY checkSpelling.accesskey         "t">
 
 <!ENTITY systemDefaults.label            "System Defaults">
 <!ENTITY alwaysCheckDefault.label        "Always check to see if &brandShortName; is the default browser on startup"><!--XXX-->
@@ -47,7 +47,7 @@
 
 <!ENTITY connectionDesc.label            "Configure how &brandShortName; connects to the Internet">
 <!ENTITY connectionSettings.label        "Settings…">
-<!ENTITY connectionSettings.accesskey    "S">
+<!ENTITY connectionSettings.accesskey    "e">
 
 <!ENTITY httpCache.label                 "Cached Web Content">
 
@@ -90,7 +90,7 @@
 <!ENTITY updateAutoMetroWarn.label       "(Windows 8 style &brandShortName; does not check add-on compatibility)">
 
 <!ENTITY updateHistory.label             "Show Update History">
-<!ENTITY updateHistory.accesskey         "U">
+<!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY updateOthers.label              "Automatically update:">
 <!ENTITY enableSearchUpdate.label        "Search Engines">
@@ -98,8 +98,12 @@
 
 <!ENTITY offlineNotify.label             "Tell me when a web site asks to store data for offline use">
 <!ENTITY offlineNotify.accesskey         "T">
+<!ENTITY offlineAppsPermissions.label    "When a website asks to store data for offline use:">
+<!ENTITY offlineAppsPermissions.Allow    "Allow by default">
+<!ENTITY offlineAppsPermissions.Ask      "Always ask">
+<!ENTITY offlineAppsPermissions.Deny     "Deny">
 <!ENTITY offlineNotifyExceptions.label   "Exceptions…">
-<!ENTITY offlineNotifyExceptions.accesskey "E">
+<!ENTITY offlineNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "The following web sites are allowed to store data for offline use:">
 <!ENTITY offlineAppsList.height          "7em">
@@ -108,14 +112,37 @@
 <!ENTITY offlineAppRemove.confirm        "Remove offline data">
 
 <!ENTITY certificateTab.label            "Certificates">
+<!ENTITY certGroup.label                 "Personal Certificate">
 <!ENTITY certSelection.description       "When a server requests my personal certificate:">
 <!ENTITY certs.auto                      "Select one automatically">
-<!ENTITY certs.auto.accesskey            "S">
+<!ENTITY certs.auto.accesskey            "l">
 <!ENTITY certs.ask                       "Ask me every time">
-<!ENTITY certs.ask.accesskey             "A">
+<!ENTITY certs.ask.accesskey             "i">
+<!ENTITY ocspGroup.label                 "Certificate Validation">
+<!ENTITY enableOCSP.label                "Use the Online Certificate Status Protocol (OCSP) to confirm the current validity of certificates">
+<!ENTITY enableOCSP.accesskey            "U">
+<!ENTITY requireOCSP.label               "When an OCSP server connection fails, treat the certificate as invalid">
+<!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "View Certificates">
-<!ENTITY viewCerts.accesskey             "C">
-<!ENTITY verify2.label                   "Validation">
-<!ENTITY verify2.accesskey               "V">
+<!ENTITY viewCerts.accesskey             "s">
 <!ENTITY viewSecurityDevices.label       "Security Devices">
-<!ENTITY viewSecurityDevices.accesskey   "D">
+<!ENTITY viewSecurityDevices.accesskey   "y">
+
+<!ENTITY UACompatGroup.label    "Compatibility">
+<!ENTITY UACompat.label         "User Agent Mode:">
+<!ENTITY UACompat.Native        "Native">
+<!ENTITY UACompat.Gecko         "Gecko Compatibility">
+<!ENTITY UACompat.Firefox       "Firefox Compatibility">
+
+<!ENTITY scrollparamTab.label               "Scrolling">
+<!ENTITY smoothscroll.explain.label         "The parameters below only have an effect if smooth scrolling is enabled overall with the checkbox above.">
+<!ENTITY smoothscroll.to                    "to">
+<!ENTITY smoothscroll.params.label          "Smooth scrolling parameters">
+<!ENTITY smoothscroll.mousewheel.label      "Smooth scroll with mouse wheel">
+<!ENTITY smoothscroll.mousewheel.duration   "Mouse wheel scroll duration:">
+<!ENTITY smoothscroll.arrowkeys.label       "Smooth scroll with arrow keys">
+<!ENTITY smoothscroll.arrowkeys.duration    "Arrow keys scroll duration:">
+<!ENTITY smoothscroll.pagekeys.label        "Smooth scroll page up/down">
+<!ENTITY smoothscroll.pagekeys.duration     "Page up/down scroll duration:">
+<!ENTITY smoothscroll.scrollbar.label       "Smooth scroll with scrollbars">
+<!ENTITY smoothscroll.scrollbar.duration    "Scrollbar smooth scroll duration:">

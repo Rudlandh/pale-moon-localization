@@ -18,13 +18,14 @@
 <!ENTITY checkForUpdates                                     "Kontrola aktualizací…">
 <!ENTITY disabledPlugin                                      "Tento zásuvný modul je zakázán.">
 <!ENTITY blockedPlugin.label                                 "Tento zásuvný modul je z bezpečnostních důvodů zablokován.">
+<!ENTITY hidePluginBtn.label                                 "Skrýt zásuvný modul">
 <!ENTITY managePlugins                                       "Správce zásuvných modulů…">
 
 <!-- LOCALIZATION NOTE (reloadPlugin.pre): include a trailing space as needed -->
 <!-- LOCALIZATION NOTE (reloadPlugin.middle): avoid leading/trailing spaces, this text is a link -->
 <!-- LOCALIZATION NOTE (reloadPlugin.post): include a starting space as needed -->
 <!ENTITY reloadPlugin.pre                                    "">
-<!ENTITY reloadPlugin.middle                                 "obnovte stránku">
+<!ENTITY reloadPlugin.middle                                 "Obnovte stránku">
 <!ENTITY reloadPlugin.post                                   ".">
 <!-- LOCALIZATION NOTE (report.please): This and the other report.* strings should be as short as possible, ideally 2-3 words. -->
 <!ENTITY report.please                                       "Odeslat hlášení o pádu">
@@ -38,3 +39,4 @@
 
 <!ENTITY plugin.file                                         "Soubor">
 <!ENTITY plugin.mimeTypes                                    "Typ MIME">
+<!ENTITY plugin.flashProtectedMode.label                     "Povolit chráněný režim Adobe Flash">

@@ -1,0 +1,81 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY aboutTelemetry.pageTitle "Datos sa Telemetry">
+
+<!ENTITY aboutTelemetry.telemetryEnabled "
+Telemetry ay <span>pinagana</span>.
+">
+
+<!ENTITY aboutTelemetry.telemetryDisabled "
+Ang Telemetry ay <span>hindi pinapagana</span>.
+">
+
+<!ENTITY aboutTelemetry.generalDataSection "
+Pangkalahatang Datos
+">
+
+<!ENTITY aboutTelemetry.slowSqlSection "
+ Mga mabagal na SQL Statement
+">
+
+<!ENTITY aboutTelemetry.chromeHangsSection "
+Mga Browser Hang
+">
+
+<!ENTITY aboutTelemetry.threadHangStatsSection "
+Mga Thread Hang
+">
+
+<!ENTITY aboutTelemetry.histogramsSection "
+  Mga Histogram
+">
+
+<!ENTITY aboutTelemetry.keyedHistogramsSection "
+  Mga Keyed Histogram
+">
+
+<!ENTITY aboutTelemetry.simpleMeasurementsSection "
+Mga Simpleng Sukat
+">
+
+<!ENTITY aboutTelemetry.addonDetailsSection "
+Mga Detalye sa Add-on
+">
+
+<!ENTITY aboutTelemetry.lateWritesSection "
+  Mga Nahuling Pagsulat
+">
+
+<!ENTITY aboutTelemetry.systemInfoSection "
+Impormasyon sa Sistema
+">
+
+<!ENTITY aboutTelemetry.addonHistogramsSection "
+  Mga Histogram na Kinolekta ng mga Add-on
+">
+
+<!ENTITY aboutTelemetry.toggle "
+  I-click para i-toggle ang section
+">
+
+<!ENTITY aboutTelemetry.emptySection "
+(Walang nakolektang datos)
+">
+
+<!ENTITY aboutTelemetry.fullSqlWarning "
+  NOTE: Mabagl na pagde-debug sa SQL ay pinapagan. Mga buong SQL string ay maaring ipakita sa ibaba ngunit hindi sila isusumite sa Telemetry.
+">
+
+<!ENTITY aboutTelemetry.fetchSymbols "
+Kunin ang mga pangalan ng function para sa mga hang stack
+">
+
+<!ENTITY aboutTelemetry.hideSymbols "
+Ipakita ang raw na datos mula sa mga hang
+">
+
+<!ENTITY aboutTelemetry.filterText "
+Filter (strings o /regexp/)
+">
