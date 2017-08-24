@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY  blockPopups.label           "Блокувати виринаючі вікна">
+<!ENTITY  blockPopups.label           "Блокувати спливаючі вікна">
 <!ENTITY  blockPopups.accesskey       "о">
 <!ENTITY  popupExceptions.label       "Винятки…">
 <!ENTITY  popupExceptions.accesskey   "и">
@@ -10,7 +10,7 @@
 <!ENTITY  loadImages.label            "Завантажувати зображення:">
 <!ENTITY  loadImages.always           "Автоматично">
 <!ENTITY  loadImages.never            "Ніколи">
-<!ENTITY  loadImages.no3rdparty       "Тільки з вихідного сервера">
+<!ENTITY  loadImages.no3rdparty       "Тільки з основного сервера">
 
 <!ENTITY  fontsAndColors.label        "Шрифти і кольори">
 

@@ -26,10 +26,11 @@
 <!ENTITY checkSpelling.label             "Перевіряти орфографію при наборі тексту">
 <!ENTITY checkSpelling.accesskey         "е">
 
-<!ENTITY systemDefaults.label            "Системні налаштування">
-<!ENTITY alwaysCheckDefault.label        "Завжди перевіряти при запуску, чи є &brandShortName; браузером за замовчуванням"><!--XXX-->
+<!ENTITY systemDefaults.label            "Системні замовчування">
+<!ENTITY alwaysCheckDefault.label        "Завжди перевiряти пiд час запускання що &brandShortName; є основним"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
-<!ENTITY setDefault.label                "Зробити &brandShortName; браузером за замовчуванням">
+<!ENTITY setDefault.label                "Зробити &brandShortName; основним броузером">
+
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; наразі є вашим типовим браузером">
 
@@ -98,51 +99,51 @@
 
 <!ENTITY offlineNotify.label             "Повідомляти мені, коли сайт просить дозволу зберегти дані для позамережного використання.">
 <!ENTITY offlineNotify.accesskey         "П">
-<!ENTITY offlineAppsPermissions.label    "Коли веб-сайт просить зберігати дані для автономного використання:">
-<!ENTITY offlineAppsPermissions.Allow    "За замовчуванням дозволяти">
+<!ENTITY offlineAppsPermissions.label    "Коли сайт просить зберегти дані для автономної роботи:">
+<!ENTITY offlineAppsPermissions.Allow    "Дозволити за замовчуванням">
 <!ENTITY offlineAppsPermissions.Ask      "Завжди питати">
 <!ENTITY offlineAppsPermissions.Deny     "Заборонити">
-<!ENTITY offlineNotifyExceptions.label   "Виключення…">
+<!ENTITY offlineNotifyExceptions.label   "Винятки…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
-<!ENTITY offlineAppsList2.label          "Наступним веб-сайтів дозволено зберігати дані для роботи в автономному режимі:">
-<!ENTITY offlineAppsList.height          "10em">
-<!ENTITY offlineAppsListRemove.label     "Видалити...">
+<!ENTITY offlineAppsList2.label          "Наступним сайтам дозволено зберігати дані для автономного використання:">
+<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsListRemove.label     "Видалити…">
 <!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
 
 <!ENTITY certificateTab.label            "Сертифікати">
-<!ENTITY certGroup.label                 "Персональний сертифікат">
-<!ENTITY certSelection.description       "Коли сервер запитує персональний сертифікат:">
+<!ENTITY certGroup.label                 "Персональный сертификат">
+<!ENTITY certSelection.description       "Коли сервер запитує персональний сертифiкат:">
 <!ENTITY certs.auto                      "Надсилати автоматично">
 <!ENTITY certs.auto.accesskey            "а">
 <!ENTITY certs.ask                       "Питати кожного разу">
 <!ENTITY certs.ask.accesskey             "к">
 <!ENTITY ocspGroup.label                 "Перевірка сертифіката">
-<!ENTITY enableOCSP.label                "Використовувати протокол отримання статусу сертифікатів (OCSP) для перевірки поточного статусу сертифікатів">
+<!ENTITY enableOCSP.label                "Використовувати OCSP для пiдтвердження теперішньої дiйсностi сертифiкатiв">
 <!ENTITY enableOCSP.accesskey            "U">
-<!ENTITY requireOCSP.label               "При помилці з'єднання з сервером OCSP вважати сертифікат недійсним">
+<!ENTITY requireOCSP.label               "При помилцi з'єднання iз сервером OCSP уважати сертифiкат як недiйсний">
 <!ENTITY requireOCSP.accesskey           "f">
 <!ENTITY viewCerts.label                 "Перегляд сертифікатів">
 <!ENTITY viewCerts.accesskey             "с">
-<!ENTITY viewSecurityDevices.label       "Пристрої безпеки">
+<!ENTITY viewSecurityDevices.label       "Пристрої захисту">
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
-<!ENTITY UACompatGroup.label    "Сумісність">
-<!ENTITY UACompat.label         "Режим User Agent`а:">
-<!ENTITY UACompat.Native        "Рідний">
-<!ENTITY UACompat.Gecko         "Сумісний з Gecko">
-<!ENTITY UACompat.Firefox       "Сумісний з Firefox">
+<!ENTITY UACompatGroup.label    "Сумiснiсть">
+<!ENTITY UACompat.label         "Використовувати User Agent:">
+<!ENTITY UACompat.Native        "Свiй">
+<!ENTITY UACompat.Gecko         "Сумiсний з Gecko">
+<!ENTITY UACompat.Firefox       "Сумiсний з Firefox">
 
-<!ENTITY scrollparamTab.label               "Скролінг">
-<!ENTITY smoothscroll.explain.label         "Наступні параметри застосовуються тільки при включенні плавного скролінгу">
+<!ENTITY scrollparamTab.label               "Прокрутка">
+<!ENTITY smoothscroll.explain.label         "Наступні параметри використовуються тільки при увімкненій плавній прокрутці.">
 <!ENTITY smoothscroll.to                    "—">
-<!ENTITY smoothscroll.params.label          "Параметри плавного скролінгу">
+<!ENTITY smoothscroll.params.label          "Параметри плавної прокрутки">
 <!ENTITY smoothscroll.mousewheel.label      "За допомогою коліщатка миші">
-<!ENTITY smoothscroll.mousewheel.duration   "Тривалість прокрутки мишки::">
-<!ENTITY smoothscroll.arrowkeys.label       "За допомогою клавіш зі стрілками">
-<!ENTITY smoothscroll.arrowkeys.duration    "Тривалість скролінгу клавішами стрілок:">
-<!ENTITY smoothscroll.pagekeys.label        "За допомогою клавіш page up/down">
-<!ENTITY smoothscroll.pagekeys.duration     "Тривалість скролінгу клавішами Page up/down:">
-<!ENTITY smoothscroll.scrollbar.label       "За допомогою смуги прокрутки">
-<!ENTITY smoothscroll.scrollbar.duration    "Тривалість скролінгу смуги прокрутки">
+<!ENTITY smoothscroll.mousewheel.duration   "Тривалість прокрутки миші:">
+<!ENTITY smoothscroll.arrowkeys.label       "За допомогою клавіш курсора">
+<!ENTITY smoothscroll.arrowkeys.duration    "Тривалість прокрутки:">
+<!ENTITY smoothscroll.pagekeys.label        "За допомогою клавіш PgUp/PgDn">
+<!ENTITY smoothscroll.pagekeys.duration     "Тривалість прокрутки:">
+<!ENTITY smoothscroll.scrollbar.label       "Зо допомоги смуги прокручування">
+<!ENTITY smoothscroll.scrollbar.duration    "Тривалiсть прокручування:">

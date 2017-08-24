@@ -6,12 +6,12 @@
 <!ENTITY     props.value.label              "Уміст:">
 <!ENTITY     props.domain.label             "Хост:">
 <!ENTITY     props.path.label               "Шлях:">
-<!ENTITY     props.secure.label             "Відправити на:">
+<!ENTITY     props.secure.label             "Посилати при:">
 <!ENTITY     props.expires.label            "Термін дії закінчується:">
 
 <!ENTITY     button.allow.label             "Дозволити">
 <!ENTITY     button.allow.accesskey         "A">
-<!ENTITY     button.session.label           "Дозволити для сеансу">
+<!ENTITY     button.session.label           "Дозволити на сеанс">
 <!ENTITY     button.session.accesskey       "S">
 <!ENTITY     button.deny.label              "Відхилити">
 <!ENTITY     button.deny.accesskey          "D">
