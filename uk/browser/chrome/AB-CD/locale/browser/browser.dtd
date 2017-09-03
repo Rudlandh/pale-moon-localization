@@ -334,7 +334,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Веб-розробка">
 <!ENTITY appMenuGettingStarted.label "Перші кроки">
 <!ENTITY appMenuSafeMode.label "Перезапуск з вимкненими додатками…">
-<!ENTITY appMenuSafeMode.accesskey "д">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Введіть пошуковий запит або адресу">
@@ -548,6 +547,10 @@ you can use these alternative items. Otherwise, their values should be empty.  -
 <!ENTITY zoomOutButton.tooltip          "Зменшити">
 <!ENTITY zoomInButton.tooltip           "Збільшити">
 <!ENTITY zoomControls.label             "Масштабування">
+
+<!ENTITY appMenuRestart.label           "Restart">
+<!ENTITY appMenuRestart.accesskey       "R">
+<!ENTITY appMenuRestartCmd.commandkey   "R">
 
 <!ENTITY quitApplicationCmdWin.label       "Вийти"> 
 <!ENTITY quitApplicationCmdWin.accesskey   "й">

@@ -94,10 +94,10 @@
 
 <!ENTITY help.title "Управління доповненнями">
 <!ENTITY help.close "Закрити">
-<!ENTITY help.intro "This tool will help you build and install web apps on compatible devices (i.e. Firefox OS). The <strong>Apps</strong> tab will assist you in the validation and installation process of your app. The <strong>Device</strong> tab will give you information about the connected device. Use the bottom toolbar to connect to a device or start the simulator.">
-<!ENTITY help.usefullLinks "Useful links:">
-<!ENTITY help.appMgrDoc "Documentation: Using the App Manager">
-<!ENTITY help.configuringDevice "How to setup your Firefox OS device">
-<!ENTITY help.troubleShooting "Troubleshooting">
-<!ENTITY help.simulatorAddon "Install Simulator Add-on">
-<!ENTITY help.adbHelperAddon "Install Adb Helper Add-on">
+<!ENTITY help.intro "Цей інструмент допоможе вам у створенні і встановлення веб-додатків на сумісні пристрої, що (працюють під Firefox OS). Вкладка <strong>Програми</strong> допоможе вам у валідації та встановлення вашого додатка. У вкладці <strong>Пристрій</strong> відображається інформація про під'єднаному пристрої. Використовуйте нижню панель інструментів для приєднання до пристрою або запуску симулятора.">
+<!ENTITY help.usefullLinks "Корисні посилання:">
+<!ENTITY help.appMgrDoc "Документація: Використання менеджера доповнень">
+<!ENTITY help.configuringDevice "Як налаштувати ваш пристрій з Firefox OS">
+<!ENTITY help.troubleShooting "Усунення проблем">
+<!ENTITY help.simulatorAddon "Встановіть симулятор доповнення">
+<!ENTITY help.adbHelperAddon "Установка доповнення &quot; Помічник Adb (Oma) &quot;">

@@ -30,7 +30,6 @@
 <!ENTITY alwaysCheckDefault.label        "Завжди перевiряти пiд час запускання що &brandShortName; є основним"><!--XXX-->
 <!ENTITY alwaysCheckDefault.accesskey    "w">
 <!ENTITY setDefault.label                "Зробити &brandShortName; основним броузером">
-
 <!ENTITY setDefault.accesskey            "d">
 <!ENTITY isDefault.label                 "&brandShortName; наразі є вашим типовим браузером">
 
@@ -107,7 +106,7 @@
 <!ENTITY offlineNotifyExceptions.accesskey "x">
 
 <!ENTITY offlineAppsList2.label          "Наступним сайтам дозволено зберігати дані для автономного використання:">
-<!ENTITY offlineAppsList.height          "7em">
+<!ENTITY offlineAppsList.height          "10em">
 <!ENTITY offlineAppsListRemove.label     "Видалити…">
 <!ENTITY offlineAppsListRemove.accesskey "R">
 <!ENTITY offlineAppRemove.confirm        "Удалить данные автономных веб-сайтов">
