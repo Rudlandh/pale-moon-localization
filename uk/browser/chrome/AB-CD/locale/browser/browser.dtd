@@ -334,7 +334,6 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY appMenuWebDeveloper.label "Веб-розробка">
 <!ENTITY appMenuGettingStarted.label "Перші кроки">
 <!ENTITY appMenuSafeMode.label "Перезапуск з вимкненими додатками…">
-<!ENTITY appMenuSafeMode.accesskey "д">
 
 <!ENTITY openCmd.commandkey           "l">
 <!ENTITY urlbar.placeholder2          "Введіть пошуковий запит або адресу">

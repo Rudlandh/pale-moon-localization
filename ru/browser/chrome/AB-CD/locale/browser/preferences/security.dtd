@@ -23,11 +23,10 @@
 <!ENTITY  addonExceptions.label         "Исключения…">
 <!ENTITY  addonExceptions.accesskey     "с">
 
-<!ENTITY  addonSecuritylevel            "Уровень безопасности дополнений:">
-<!ENTITY  addonSecurityLevel_Off        "Отключен: Не блокировать никакие дополнения (опасно)">
-<!ENTITY  addonSecurityLevel_Low        "Низкий: Блокировать только дополнения с серьезными проблемами безопасности и стабильности">
-<!ENTITY  addonSecurityLevel_High       "Средний: Блокировать все вредоносные дополнения (по умолчанию, рекомендуется)">
-<!ENTITY  addonSecurityLevel_Extreme    "Высокий: Блокировать все дополнения с известными проблемами">
+<!ENTITY  addonSecurityLevel_Off        "Off: Не одно дополнение не заблокированно (опасно)">
+<!ENTITY  addonSecurityLevel_Low        "Low: Блокируются только дополнения, с известными серьёзнами проблемами в безопасности или стабильности">
+<!ENTITY  addonSecurityLevel_High       "Medium: Бллокируются все известные небезопасные и нестабильные дополнения (по-умолчанию, рекомендовано)">
+<!ENTITY  addonSecurityLevel_Extreme    "High: Блокируются все дополнения с известными проблемами">
 
 <!ENTITY  passwords.label               "Пароли">
 

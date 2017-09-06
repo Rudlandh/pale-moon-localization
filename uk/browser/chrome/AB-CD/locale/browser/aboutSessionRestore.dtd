@@ -20,4 +20,4 @@
 <!ENTITY restorepage.restoreHeader  "Відновити">
 <!ENTITY restorepage.listHeader     "Вікна та вкладки">
 <!-- LOCALIZATION NOTE: &#37;S will be replaced with a number. -->
-<!ENTITY restorepage.windowLabel    "Вікно &#37;S">
+<!ENTITY restorepage.windowLabel    "Вікно %S">

@@ -2,16 +2,16 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY blocklist.title             "Add-ons may be causing problems">
-<!ENTITY blocklist.style             "width: 45em; height: 30em">
-<!ENTITY blocklist.summary           "&brandShortName; has determined that the following add-ons are known to cause stability or security problems:">
-<!ENTITY blocklist.softblocked       "For your protection, it is highly recommended that you restart with these add-ons disabled.">
-<!ENTITY blocklist.hardblocked       "These add-ons have a high risk of causing stability or security problems and have been blocked, but a restart is required to disable them completely.">
-<!ENTITY blocklist.softandhard       "The add-ons that have a high risk of causing stability or security problems have been blocked. The others are lower risk, but it is highly recommended that you restart with them disabled.">
-<!ENTITY blocklist.moreinfo          "More information">
+<!ENTITY blocklist.title             "Ці доповнення можуть викликати проблеми">
+<!ENTITY blocklist.style             "width: 55em; height: 30em">
+<!ENTITY blocklist.summary           "&brandShortName; визначив, що ці доповнення можуть викликати проблеми стабільності і безпеки:">
+<!ENTITY blocklist.softblocked       "Для вашої безпеки, настійно рекомендуємо перезапустити програму з забороною на використання цих доповнення.">
+<!ENTITY blocklist.hardblocked       "Ці доповнення мають високий ризик виникнення проблем стабільності або безпеки і були заблоковані, але це необхідно перезапуск програми для повного їх відключення.">
+<!ENTITY blocklist.softandhard       "Ці доповнення, які мають високий ризик виникнення проблем стабільності і безпеки були заблоковані. Решта мають невеликий ризик виникнення проблем, але рекомендуємо перезапустити програму, відключивши і ці доповнення.">
+<!ENTITY blocklist.moreinfo          "Більше інформації">
 
-<!ENTITY blocklist.accept.label      "Restart &brandShortName;">
+<!ENTITY blocklist.accept.label      "Перезапуск &brandShortName;">
 <!ENTITY blocklist.accept.accesskey  "R">
 
-<!ENTITY blocklist.blocked.label     "Blocked">
-<!ENTITY blocklist.checkbox.label    "Disable">
+<!ENTITY blocklist.blocked.label     "Заблоковано">
+<!ENTITY blocklist.checkbox.label    "Вимкнено">
