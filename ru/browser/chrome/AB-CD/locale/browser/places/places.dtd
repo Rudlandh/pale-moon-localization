@@ -53,7 +53,7 @@
 <!ENTITY cmd.open_window.label             "Открыть в новом окне">
 <!ENTITY cmd.open_window.accesskey         "н">
 <!ENTITY cmd.open_private_window.label     "Открыть в новом приватном окне">
-<!ENTITY cmd.open_private_window.accesskey "П">
+<!ENTITY cmd.open_private_window.accesskey "п">
 <!ENTITY cmd.open_tab.label                "Открыть в новой вкладке">
 <!ENTITY cmd.open_tab.accesskey            "ы">
 <!ENTITY cmd.open_all_in_tabs.label        "Открыть всё во вкладках">
